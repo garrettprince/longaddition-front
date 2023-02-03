@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import CategoryBar from '../lib/components/site/CategoryBar'
+import Feed from '../lib/components/site/Feed'
 import Nav from '../lib/components/site/Nav'
 
 export default function Home() {
@@ -12,6 +14,10 @@ export default function Home() {
       </Head>
 
       <Nav />
+      <main className='flex'>
+        <CategoryBar />
+        <Feed />
+      </main>
     </div>
   )
 }

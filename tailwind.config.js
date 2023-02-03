@@ -25,7 +25,10 @@ module.exports = {
         health: "#FFFF00",
         tech: "#FF7700",
       },
+      rotate: {
+        270: "270deg",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
