@@ -4,6 +4,7 @@ import Feed from "../lib/components/site/Feed";
 import Nav from "../lib/components/site/Nav";
 import { useState } from "react";
 
+
 export default function Home() {
   const [selected, setSelected] = useState("latest");
   const [menuToggle, setMenuToggle] = useState(true)
@@ -25,6 +26,7 @@ export default function Home() {
         <CategoryBar selected={selected} setSelected={setSelected} />
         <Feed selected={selected} />
       </div>
+
     </div>
   );
 }
