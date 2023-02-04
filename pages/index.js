@@ -6,6 +6,11 @@ import { useState } from "react";
 
 export default function Home() {
   const [selected, setSelected] = useState("latest");
+  const [menuToggle, setMenuToggle] = useState(true)
+
+   const menuToggleFunc = () => {
+     setMenuToggle(!menuToggle);
+   };
 
   return (
     <div className="">
@@ -15,11 +20,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav />
-      <main className="flex">
+      <Nav menuToggle={menuToggle} setMenuToggle={setMenuToggle} menuToggleFunc={menuToggleFunc} />
+      <div className="flex">
         <CategoryBar selected={selected} setSelected={setSelected} />
         <Feed selected={selected} />
-      </main>
+      </div>
     </div>
   );
 }
