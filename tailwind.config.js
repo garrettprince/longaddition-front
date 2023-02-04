@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         "cta-gradient-1": "#FF0049",
         "cta-gradient-2": "#E205FF",
+        inactive: "#818181",
         misc: "#0072FF",
         media: "#FD0000",
         travel: "#5B00FF",
