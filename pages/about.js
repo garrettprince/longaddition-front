@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../lib/components/site/Nav'
+import Nav from '../lib/components/Nav'
 
 export default function about({ }) {
   return (

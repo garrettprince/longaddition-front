@@ -1,7 +1,7 @@
 import Head from "next/head";
-import CategoryBar from "../lib/components/site/CategoryBar";
-import Feed from "../lib/components/site/Feed";
-import Nav from "../lib/components/site/Nav";
+import CategoryBar from "../lib/components/CategoryBar";
+import Feed from "../lib/components/Feed";
+import Nav from "../lib/components/Nav";
 import { useState } from "react";
 
 
