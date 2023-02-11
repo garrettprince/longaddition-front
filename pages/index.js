@@ -1,12 +1,29 @@
 import Head from "next/head";
+import Router from "next/router";
 import CategoryBar from "../lib/components/CategoryBar";
 import Feed from "../lib/components/Feed";
 import Nav from "../lib/components/Nav";
 import { useState } from "react";
+import Footer from "../lib/components/Footer";
 
 export default function Home() {
   const [selected, setSelected] = useState("latest");
   const [menuToggle, setMenuToggle] = useState(true);
+
+  // Use query params for filtering instead of state
+  // Dynamic routes for blog posts
+
+  // const router = useRouter()
+  // const { category } = router.query;
+
+  // posts.filter by category and then .map to render the posts
+  // ?category=tech
+
+// router.push({
+//           query: { category: "travel" },
+//         })
+// if category is null then render latest
+
 
   const tech = "tech";
   const latest = "latest";
@@ -28,12 +45,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav
+      {/* <Nav
         menuToggle={menuToggle}
         setMenuToggle={setMenuToggle}
         menuToggleFunc={menuToggleFunc}
-      />
-      <div className="flex scrollbar-none">
+      /> */}
+      <div className="flex">
         <CategoryBar
           selected={selected}
           setSelected={setSelected}
@@ -56,6 +73,7 @@ export default function Home() {
           music={music}
         />
       </div>
+      {/* <Footer /> */}
     </div>
   );
 }
