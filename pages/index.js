@@ -33,9 +33,7 @@ export default function Home() {
   const health = "health";
   const music = "music";
 
-  const menuToggleFunc = () => {
-    setMenuToggle(!menuToggle);
-  };
+  
 
   return (
     <div className="scrollbar-none mt-10">
