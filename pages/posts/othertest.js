@@ -1,13 +1,11 @@
-import React from 'react'
-import Nav from "/lib/components/site/Nav.js";
+import React from "react";
 
 function othertest() {
   return (
     <div>
-        <Nav />
-        <div>This is another test to see</div>
+      <div>This is another test to see</div>
     </div>
-  )
+  );
 }
 
-    export default othertest
+export default othertest;

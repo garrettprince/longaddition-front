@@ -8,22 +8,6 @@ import Footer from "../lib/components/Footer";
 
 export default function Home() {
   const [selected, setSelected] = useState("latest");
-  const [menuToggle, setMenuToggle] = useState(true);
-
-  // Use query params for filtering instead of state
-  // Dynamic routes for blog posts
-
-  // const router = useRouter()
-  // const { category } = router.query;
-
-  // posts.filter by category and then .map to render the posts
-  // ?category=tech
-
-// router.push({
-//           query: { category: "travel" },
-//         })
-// if category is null then render latest
-
 
   const tech = "tech";
   const latest = "latest";
@@ -33,8 +17,6 @@ export default function Home() {
   const health = "health";
   const music = "music";
 
-  
-
   return (
     <div className="scrollbar-none mt-10">
       <Head>
@@ -43,11 +25,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <Nav
-        menuToggle={menuToggle}
-        setMenuToggle={setMenuToggle}
-        menuToggleFunc={menuToggleFunc}
-      /> */}
       <div className="flex">
         <CategoryBar
           selected={selected}
