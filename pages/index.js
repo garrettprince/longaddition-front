@@ -9,14 +9,6 @@ import Footer from "../lib/components/Footer";
 export default function Home() {
   const [selected, setSelected] = useState("latest");
 
-  const tech = "tech";
-  const latest = "latest";
-  const misc = "misc";
-  const travel = "travel";
-  const media = "media";
-  const health = "health";
-  const music = "music";
-
   return (
     <div className="scrollbar-none mt-10">
       <Head>
@@ -26,27 +18,8 @@ export default function Home() {
       </Head>
 
       <div className="flex">
-        <CategoryBar
-          selected={selected}
-          setSelected={setSelected}
-          misc={misc}
-          tech={tech}
-          lates={latest}
-          travel={travel}
-          media={media}
-          health={health}
-          music={music}
-        />
-        <Feed
-          selected={selected}
-          misc={misc}
-          tech={tech}
-          lates={latest}
-          travel={travel}
-          media={media}
-          health={health}
-          music={music}
-        />
+        <CategoryBar selected={selected} setSelected={setSelected} />
+        <Feed selected={selected} />
       </div>
       {/* <Footer /> */}
     </div>
