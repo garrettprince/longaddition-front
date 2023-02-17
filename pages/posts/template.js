@@ -1,5 +1,7 @@
+import PostTemplate from "../../lib/components/PostTemplate"
+
 export default function template() {
   return (
-    <div className='mt-20'>template</div>
+    <PostTemplate />
   )
 }
