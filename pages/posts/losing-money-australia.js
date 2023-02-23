@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
 import ThumbnailTLMLPB from "/lib/components/ThumbnailTLMLPB.js";
 import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
 import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
