@@ -25,6 +25,7 @@ module.exports = {
         music: "#31FF00",
         health: "#FFFF00",
         tech: "#FF7700",
+        cta: "#FF0072",
       },
       rotate: {
         270: "270deg",

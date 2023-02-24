@@ -2,10 +2,11 @@ import Link from "next/link";
 import { contactPagePhrases } from "../lib/data/phrases";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import ContactGreetInterval from "../lib/components/ContactGreetInterval";
 
 export default function Contact() {
-  const contactPagePhraseVar =
-    contactPagePhrases[Math.floor(Math.random() * contactPagePhrases.length)];
+  // const contactPagePhraseVar =
+  //   contactPagePhrases[Math.floor(Math.random() * contactPagePhrases.length)];
 
   const [telepathy, setTelepathy] = useState(false)
   const [openMessage, setOpenMessage] = useState()
@@ -33,7 +34,8 @@ export default function Contact() {
     >
       {/* Have a picture of me with an open mouth and the Let's talk inside of it, maybe sideways so it doesn't take up too much vertical space */}
       <div className="text-center font-bold text-4xl mb-20 mx-10">
-        {contactPagePhraseVar}
+        {/* {contactPagePhraseVar} */}
+        <ContactGreetInterval />
       </div>
       {/* <Link
         href="https://www.instagram.com/garrettjprince/"

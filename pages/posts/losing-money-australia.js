@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function losingmoneyaus() {
     return (
       <div className="mt-20">
-        <header className="mx-8">
+        <header className="mx-7">
           <ThumbnailTLMLPR
             key="misc"
             link="/posts/losing-money-australia"
@@ -50,7 +50,7 @@ export default function losingmoneyaus() {
           initial={{ y: 6, opacity: 0 }}
           animate={{ y: -3, opacity: 1 }}
           transition={{ ease: "easeOut", duration: 0.2 }}
-          className=" ml-8 mr-3 text-lg"
+          className=" ml-7 mr-4 text-lg"
         >
           <p id="first-paragraph" className="mb-4">
             <span className="font-bold">
