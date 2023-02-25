@@ -19,7 +19,7 @@ export default function About() {
               My name is Garrett and I can talk to animals,
             </span>{" "}
             but I primarily write words and software. In addition to my writing,
-            I&apos;ve spent (and will continue to spend) my life
+            I&apos;ve spent (and will continue to spend) my entire life
             circumnavigating the globe as a treasure hunter in search of{" "}
             <Link
               href="/"
