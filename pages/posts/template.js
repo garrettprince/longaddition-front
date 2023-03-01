@@ -108,10 +108,10 @@ export default function PostTemplate() {
           recusandae accusantium quia autem facilis pariatur enim! Sed magni
           minima sequi nisi nulla optio non quod debitis ipsum.
         </p>
-        <div className="pt-6 pb-10 flex mx-auto justify-center">
-          <div className="h-2 w-2 rounded-full bg-white mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-white mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-white mx-1"></div>
+        <div className="pt-8 pb-12 flex mx-auto justify-center">
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
           
         </div>
         <p id="paragraph" className="mb-4">
