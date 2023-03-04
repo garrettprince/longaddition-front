@@ -141,16 +141,132 @@ export default function losingmoneyaus() {
           </p>
         </div>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          We pulled into the city and raced to the drop-off point, making sure
+          to avoid the swarths of hungover backpackers showing up to their
+          temporary shift work. Cairns had this buzz about it that I really took
+          to. There were families and tourists, but the city seemed to attract a
+          specific type of backpacker that I’d been more inclined to connect
+          with than those in Sydney.
         </p>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          The Camry screeched to a halt inches from the marina’s curb. 8:02. My
+          departure from his backseat set the land speed record for the quickest
+          to unstick a back and fastest to sling a Herschel over their shoulder,
+          all while narrowly avoiding the backpack induced decapitation of a
+          Romanian family making their way to the pier behind me. “Thank you so
+          much! I really cannot express-“ I started but the driver cut me off.
+          “Go! What are you waiting for!?”
+        </p>
+        <p id="paragraph" className="mb-4">
+          Back in the humidity, and with the five dollar sandals I purchased in
+          Dee Why, I clopped my way to the boat I’d signed on to scuba with. A
+          lady with a checklist stood near the stairs to board, verifying the
+          passengers as they climbed in. I stopped just short of her, gasping
+          for breath.
+        </p>
+        <p id="paragraph" className="mb-4">
+          “Name?” She smiled. 8:05. “Prince. Garrett.” I heaved in response.
+          “Garrett Prince. Can I still board?”
+        </p>
+        <p id="paragraph" className="mb-4">
+          She studied her clipboard. “Prince, Prince, Prince… Oh! Got you right
+          here.” She marked my name off on the attendance sheet and laughed.
+          “Yeah, I don’t see why you couldn’t.” She looked up from her papers,
+          “We don’t leave until 8:30.”
+        </p>
+        <div className="pt-8 pb-12 flex mx-auto justify-center">
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+        </div>
+        <p id="paragraph" className="mb-4">
+          A month earlier, I sat inches from my monitor rereading my latest
+          application rejection email. “The team loved you, but due to economic
+          circumstances…”. I knew how it went. I’d been broken up with before.
+          Luckily, this time around, I didn’t have to convince the HR rep to let
+          me keep the cat.
+        </p>
+        <p id="paragraph" className="mb-4">
+          By that point in September, I’d spent the better part of 2022 coding
+          each night. After staring at a computer, working my remote sales
+          training position for most of the day, I’d then stare at a computer
+          and work on software engineering and music projects until my body
+          called it quits for the night. Some nights, I’d end early and walk to
+          the Basha’s across the street with my roommate and best friend,
+          Tanner. We’d cheers a Topo Chico and talk about doing something big
+          with our lives. Some days I’d work until I was so exhausted it looked
+          as though I’d been haunting the abandoned house at the end of the lane
+          that the neighbor kids dare each other to go inside when there’s a
+          full moon and some get scared but others inevitably find strength in
+          numbers and form a life long bond. Most nights, I was just tired.
+        </p>
+        <p id="paragraph" className="mb-4">
+          In all of these late nights, and in all of this uncertainty, it got me
+          thinking.
+        </p>
+        <p id="paragraph" className="mb-4">
+          When I was a freshman in high school, a friend of a friend informed me
+          of another friend that had smoked weed for the first time. Hearing the
+          news, I responded with “Oh. Wow. I hope she’s okay.” My 14 year old
+          Mormon version of the sign of the cross. My friend told me about how
+          the classmate had gotten so high she had thought she was in a
+          fishbowl. She banged on the walls, but to no avail. They were so thick
+          no one could hear.
+        </p>
+        <div className="mb-4 mt-10">
+          <img
+            alt=""
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/fishbowl_nrfmqh.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+            FIG 3. STANDARD FISH BOWL{" "}
+          </p>
+        </div>
+        <p id="paragraph" className="mb-4">
+          Now, I’m well aware of the stories we tell each other around that age.
+          I once told a girl I couldn’t date her because I was in a long
+          distance letter writing relationship. I also once had a zit so large
+          and so deep on my cheek, I told my friends I had fallen and my knee
+          hit it at just the right angle but it could also be hereditary “so I
+          may have to get my blood checked to see.” Whether my classmate had
+          been stretching the truth or not when relaying her experiences to my
+          friend, that image stuck with me: Banging on the sides of a fishbowl.
+          Trying to escape.
+        </p>
+        <p id="paragraph" className="mb-4">
+          Now, it may seem strange at first, but I often describe pivotal
+          moments of my life using that visual: The Fishbowl Effect, if you
+          will. Applying for colleges and feeling like I had to get out of my
+          hometown in Oregon: Stuck in the fishbowl. Leaving for the University
+          of Hawaii: Getting out of the fishbowl. Falling for someone who’s
+          engaged to be married: Fishbowl. Starting a new career, moving and
+          getting over them: Out.
+        </p>
+        <p id="paragraph" className="mb-4">
+          Engineering nightly, keeping too much to myself, feeling like I wasn’t
+          creating things that I actually enjoyed making: There I was, banging
+          on the glass again.
+        </p>
+        <div className="mb-4 mt-10">
+          <img
+            alt=""
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/backturngarrett_ow3wd2.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+            FIG 4. MY PERSONAL FISH BOWL{" "}
+          </p>
+        </div>
+        <p id="paragraph" className="mb-4">
+          She studied her clipboard. “Prince, Prince, Prince… Oh! Got you right
+          here.” She marked my name off on the attendance sheet and laughed.
+          “Yeah, I don’t see why you couldn’t.” She looked up from her papers,
+          “We don’t leave until 8:30.”
+        </p>
+        <p id="paragraph" className="mb-4">
+          She studied her clipboard. “Prince, Prince, Prince… Oh! Got you right
+          here.” She marked my name off on the attendance sheet and laughed.
+          “Yeah, I don’t see why you couldn’t.” She looked up from her papers,
+          “We don’t leave until 8:30.”
         </p>
       </motion.div>
     </div>
