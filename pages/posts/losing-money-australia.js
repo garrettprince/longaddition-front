@@ -234,13 +234,13 @@ export default function losingmoneyaus() {
           Trying to escape.
         </p>
         <p id="paragraph" className="mb-4">
-          Now, it may seem strange at first, but I often describe pivotal
-          moments of my life using that visual: The Fishbowl Effect, if you
-          will. Applying for colleges and feeling like I had to get out of my
-          hometown in Oregon: Stuck in the fishbowl. Leaving for the University
-          of Hawaii: Getting out of the fishbowl. Falling for someone who’s
-          engaged to be married: Fishbowl. Starting a new career, moving and
-          getting over them: Out.
+          It may seem strange at first, but I often describe pivotal moments of
+          my life using that visual: The Fishbowl Effect, if you will. Applying
+          for colleges and feeling like I had to get out of my hometown in
+          Oregon: Stuck in the fishbowl. Leaving for the University of Hawaii:
+          Getting out of the fishbowl. Falling for someone who’s engaged to be
+          married: Fishbowl. Starting a new career, moving and getting over
+          them: Out.
         </p>
         <p id="paragraph" className="mb-4">
           Engineering nightly, keeping too much to myself, feeling like I wasn’t
@@ -257,16 +257,110 @@ export default function losingmoneyaus() {
           </p>
         </div>
         <p id="paragraph" className="mb-4">
-          She studied her clipboard. “Prince, Prince, Prince… Oh! Got you right
-          here.” She marked my name off on the attendance sheet and laughed.
-          “Yeah, I don’t see why you couldn’t.” She looked up from her papers,
-          “We don’t leave until 8:30.”
+          I’d been toying around with the idea of traveling abroad for a few
+          years, but there was always a reason why I didn’t. Of course, the
+          pandemic threw a wrench into some tentative plans, but my hesitations
+          came years before that. It was always the “wrong” time. The “wrong”
+          place. There was always something else more important. Something that
+          needed my attention right then and there. Things I thought were
+          important, but in reality, played such a small part in my life.
         </p>
         <p id="paragraph" className="mb-4">
-          She studied her clipboard. “Prince, Prince, Prince… Oh! Got you right
-          here.” She marked my name off on the attendance sheet and laughed.
-          “Yeah, I don’t see why you couldn’t.” She looked up from her papers,
-          “We don’t leave until 8:30.”
+          So, I made up my mind. In all honesty, on a whim. Australia. For a
+          month. I had a place to stay, Tanner would watch my cat, and by
+          combining all of my airline points I’d be able to get there by paying
+          only a few hundred out of pocket. Yes, there are infinitely more
+          efficient and cost effective ways to travel (which I’ll touch on at a
+          later date), but I wasn’t worried about that.
+        </p>
+        <p id="paragraph" className="mb-4">
+          It seemed that, with age, the fishbowl kept getting a bit thicker, so
+          I needed something stronger. It sounds incredibly simple, but that’s
+          because it is: The action we take is the way out.
+        </p>
+        <p id="paragraph" className="mb-4">
+          On paper, this was a logistically awful idea. It was last minute,
+          expensive, with no itinerary, during the end of Sydney’s rainy season.
+          On paper, this trip shouldn’t have changed how I thought about what I
+          would do and the type of person I wanted to be when I got back.
+        </p>
+        <p id="paragraph" className="mb-4">
+          It shouldn’t have, but it did.
+        </p>
+        <div className="pt-8 pb-12 flex mx-auto justify-center">
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+        </div>
+        <p id="paragraph" className="mb-4">
+          Once on board the vessel that would take our group to the outermost
+          reef, I eagerly scanned the groups of tourists, searching for a German
+          man named Philip I had befriended a day earlier. Excitement permeated
+          throughout the main cabin as I grabbed the mandatory legal disclosures
+          and found my chair beside Philip near the center of the seating area.
+          There was an air of confidence from the certified and experienced
+          divers, nervous chatter from the first timers, and an overall calm
+          amongst the crew as they set out explaining the ins and outs of The
+          Great Barrier Reef. As I fell into the “first timers” bucket, I
+          listened attentively to the warnings of “If you touch this specific
+          hermit crab and it stabs you, you’ll have four minutes live” and “you
+          may have to fight off this type of fish”. The warnings were wrapped
+          nicely in a “have fun and be safe!” as we side-eyed each other amidst
+          a chorus of hesitant laughter.
+        </p>
+        <p id="paragraph" className="mb-4">
+          “Are you nervous?” Philip questioned. I grinned back at him. “I wasn’t
+          until now.” My mind swam with visions of slicked back antenna hermit
+          crabs with poison switchblades, snapping in unison on the ocean floor.
+          I’d been so hyper fixated with stepping foot onto the charter boat
+          that I hadn’t really put much thought into all the uniquely aquatic
+          ways I could die that morning.
+        </p>
+        <div className="mb-4 mt-10">
+          <img
+            alt=""
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906474/Long%20Addition/Posts/Losing%20Money%20In%20Australia/hermit_polbhn.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+            FIG 5. DEATH BY CRAB{" "}
+          </p>
+        </div>
+        <p id="paragraph" className="mb-4">
+          Philip, myself, and a recent uni grad from the Netherlands suited up
+          for our guided dive with Jose, our certified pro. Within a few
+          minutes, we were in the surprisingly temperate water, excitedly
+          practicing the basic hand signs for “yes”, “no”, and “can you see the
+          terror through my dive mask?”. The last sign can be achieved by
+          opening up your eyes as wide as you can, tensing your body from head
+          to toe, and cramping up most, if not all, of your fingers, resulting
+          in two arthritic shadow puppets.
+        </p>
+        <p id="paragraph" className="mb-4">
+          I delivery-room gripped Jose’s left bicep as we sank deeper to inspect
+          the world famous reefs. Once the nerves had warn off a bit and I
+          started breathing regularly like a human again, my focus redirected
+          itself from basic biological survival to a quiet curiosity.
+        </p>
+        <div className="mb-4 mt-10">
+          <img
+            alt=""
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906473/Long%20Addition/Posts/Losing%20Money%20In%20Australia/schoolfish_c6lxdy.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+            FIG 6. SERENITY{" "}
+          </p>
+        </div>
+        <p id="paragraph" className="mb-4">
+          The rays of light penetrating the surface colored the millennia-old
+          coral and acted as a natural highlight, guiding my eye-line to the
+          schools of fish, hurriedly jetting from one direction to the next. Sea
+          anemone danced effortlessly along the current. Our group floated among
+          the sub-aquatic scenery, simply observing.
+        </p>
+        <p id="paragraph" className="mb-4">
+          Among the other divers and the thousands of eye catching fish swimming
+          in absolute freedom, there was one thing I didn’t see: A glass fish
+          bowl. 
         </p>
       </motion.div>
     </div>
