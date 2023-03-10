@@ -39,7 +39,7 @@ export default function PostTemplate() {
               MISC
             </p>
             <p className="text-sm bg-transparent text-inactive font-mono text-right">
-              10 MIN
+              15 MIN
             </p>
           </div>
         </motion.div>
@@ -94,7 +94,7 @@ export default function PostTemplate() {
         </p>
         <h2
           id="pullquote"
-          className="mb-10 mt-10 text-3xl font-bold text-center mr-5"
+          className="mb-11 mt-10 text-3xl font-bold text-center mr-5"
         >
           This is a <span className=" ">pullquote</span> with multiple lines and
           even more text

@@ -110,6 +110,13 @@ export default function losingmoneyaus() {
           Googling before booking my stay in Queensland, I would have learned
           that Palm Cove was not, in fact, “a short drive to Cairns”.
         </p>
+        <p
+          id="pullquote"
+          className="mb-11 mt-10 text-3xl font-bold text-center mr-5"
+        >
+          &quot;<span className="italic">Everyone</span> is headed into the
+          city.&quot;
+        </p>
         <p id="paragraph" className="mb-4">
           “Have you been to The Great Barrier Reef?” I asked, deciding to volley
           back some small talk to drown out the car horns. He kept his eyes on
@@ -137,7 +144,7 @@ export default function losingmoneyaus() {
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677907444/Long%20Addition/Posts/Losing%20Money%20In%20Australia/boat_kkx8sb.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
-            FIG 2. DIVE BOAT{" "}
+            FIG 2. BOAT (FOR DIVING){" "}
           </p>
         </div>
         <p id="paragraph" className="mb-4">
@@ -265,6 +272,12 @@ export default function losingmoneyaus() {
           needed my attention right then and there. Things I thought were
           important, but in reality, played such a small part in my life.
         </p>
+        <p
+          id="pullquote"
+          className="mb-11 mt-10 text-3xl font-bold text-center mr-5"
+        >
+          The action we take is the way out.
+        </p>
         <p id="paragraph" className="mb-4">
           So, I made up my mind. In all honesty, on a whim. Australia. For a
           month. I had a place to stay, Tanner would watch my cat, and by
@@ -307,6 +320,12 @@ export default function losingmoneyaus() {
           may have to fight off this type of fish”. The warnings were wrapped
           nicely in a “have fun and be safe!” as we side-eyed each other amidst
           a chorus of hesitant laughter.
+        </p>
+        <p
+          id="pullquote"
+          className="mb-11 mt-10 text-3xl font-bold text-center mr-5"
+        >
+          &quot;Can you see the terror through my dive mask?&quot;
         </p>
         <p id="paragraph" className="mb-4">
           “Are you nervous?” Philip questioned. I grinned back at him. “I wasn’t
@@ -360,8 +379,9 @@ export default function losingmoneyaus() {
         <p id="paragraph" className="mb-4">
           Among the other divers and the thousands of eye catching fish swimming
           in absolute freedom, there was one thing I didn’t see: A glass fish
-          bowl. 
+          bowl.
         </p>
+        <div className="h-3 w-3 rounded-full bg-travel"></div>
       </motion.div>
     </div>
   );
