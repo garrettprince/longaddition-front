@@ -3,9 +3,29 @@ import ThumbnailTLMLPB from "/lib/components/ThumbnailTLMLPB.js";
 import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
 import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
 import { motion } from "framer-motion";
+import { useReward } from "react-rewards";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function PostTemplate() {
+  const [copied, setCopied] = useState(false);
+  const { reward: confettiReward, isAnimating: isConfettiAnimating } =
+    useReward("confettiReward", "confetti");
+
+  const confettiSpring = () => {
+    confettiReward();
+  };
+
+  const copy = () => {
+    const el = document.createElement("input");
+    el.value = window.location.href;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    setCopied(true);
+  };
+
   return (
     <div className="mt-20">
       <header className="mx-8">
@@ -112,7 +132,6 @@ export default function PostTemplate() {
           <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
           <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
           <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-          
         </div>
         <p id="paragraph" className="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
@@ -126,6 +145,29 @@ export default function PostTemplate() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
+        <div></div>
+        <div className="flex my-10 justify-center space-x-2 mr-5">
+          <Link
+            href="/contact"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+          >
+            <p className="font-mono text-sm bg-transparent pt-[.15rem]">
+              CONTACT
+            </p>
+          </Link>
+          <button
+            id="confettiReward"
+            disabled={isConfettiAnimating}
+            onClick={() => {
+              copy(), confettiSpring();
+            }}
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+          >
+            <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
+              {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
+            </p>
+          </button>
+        </div>
       </motion.div>
     </div>
   );

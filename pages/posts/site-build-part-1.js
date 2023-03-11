@@ -4,6 +4,7 @@ import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
 import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import EmojiReact from "../../lib/components/EmojiReact";
 
 export default function SiteBuildPart1() {
   return (
@@ -125,6 +126,7 @@ export default function SiteBuildPart1() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
+       
       </motion.div>
     </div>
   );

@@ -4,8 +4,9 @@ import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
 import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import ContactRedirect from "../../lib/components/ContactRedirect";
 
-export default function losingmoneyaus() {
+export default function fishbowlEffect() {
   return (
     <div className="mt-20">
       <header className="mx-7">
@@ -161,7 +162,7 @@ export default function losingmoneyaus() {
           to unstick a back and fastest to sling a Herschel over their shoulder,
           all while narrowly avoiding the backpack induced decapitation of a
           Romanian family making their way to the pier behind me. “Thank you so
-          much! I really cannot express-“ I started but the driver cut me off.
+          much! I really cannot express-“ I started. The driver cut me off.
           “Go! What are you waiting for!?”
         </p>
         <p id="paragraph" className="mb-4">
@@ -382,6 +383,7 @@ export default function losingmoneyaus() {
           bowl.
         </p>
         <div className="h-3 w-3 rounded-full bg-travel"></div>
+        <ContactRedirect />
       </motion.div>
     </div>
   );
