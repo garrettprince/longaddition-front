@@ -13,7 +13,7 @@ export default function About() {
       className="mt-28 flex flex-col justify-center "
     >
       <div className="">
-        <div className="fixed z-10 bg-transparent ml-7 mr-3 text-lg">
+        <div className=" bg-transparent ml-7 mr-3 text-lg">
           <p className="mb-4 bg-transparent">
             <span className="font-bold bg-transparent">
               My name is Garrett and I can talk to animals,
@@ -29,7 +29,7 @@ export default function About() {
             </Link>{" "}
           </p>
           <p className="mb-4 bg-transparent">
-            Long Addition is my personal blog and art installation. I talk more
+            Long Addition is my personal dumping ground and art installation. I talk more
             about it{" "}
             <Link
               href="/"
@@ -52,7 +52,7 @@ export default function About() {
         <img
           src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677184908/Long%20Addition/About%20Me%20Page/Troll_bmhsyg.png"
           alt=""
-          className="opacity-40 fixed top-4"
+          className="opacity-20 "
         />
       </div>
     </motion.div>

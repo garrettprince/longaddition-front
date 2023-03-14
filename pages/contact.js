@@ -5,18 +5,12 @@ import { useState } from "react";
 import ContactGreetInterval from "../lib/components/ContactGreetInterval";
 
 export default function Contact() {
-  // const contactPagePhraseVar =
-  //   contactPagePhrases[Math.floor(Math.random() * contactPagePhrases.length)];
-
-  const [telepathy, setTelepathy] = useState(false)
-  const [openMessage, setOpenMessage] = useState()
+  const [telepathy, setTelepathy] = useState(false);
+  const [openMessage, setOpenMessage] = useState();
 
   const openTelepathy = () => {
-    setTelepathy(true)
-  }
-
-  // TODO: The const above does not work for some reason, next says it's an issue with hydration, will have to ask Jadon about it
-
+    setTelepathy(true);
+  };
 
   // Maybe have a click count in the future, don't need it now though, too many features I'm trying to add, just need to get the basics done
   // const [igClickCount, setIgClickCount] = useState(0);
@@ -30,10 +24,10 @@ export default function Contact() {
       initial={{ y: 6, opacity: 0 }}
       animate={{ y: -3, opacity: 1 }}
       transition={{ ease: "easeOut", duration: 0.2 }}
-      className="mt-32 flex flex-col justify-center"
+      className="mt-32 text-center"
     >
       {/* Have a picture of me with an open mouth and the Let's talk inside of it, maybe sideways so it doesn't take up too much vertical space */}
-      <div className="text-center font-bold text-4xl mb-20 mx-10">
+      <div className="font-bold text-4xl mb-20 flex justify-center w-full">
         {/* {contactPagePhraseVar} */}
         <ContactGreetInterval />
       </div>
@@ -50,7 +44,7 @@ export default function Contact() {
         <div className="bg-black py-1 px-5 rounded-lg">EMAIL ME</div>
       </Link> */}
 
-      <div className="flex flex-col justify-center text-center mx-auto space-y-8 text-2xl">
+      <div className="flex flex-col text-center space-y-8 text-2xl mx-auto">
         <Link
           href="https://www.instagram.com/garrettjprince"
           className="font-mono"

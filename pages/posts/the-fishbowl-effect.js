@@ -4,9 +4,27 @@ import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
 import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import ContactRedirect from "../../lib/components/ContactRedirect";
+import { useState } from "react";
+import { useReward } from "react-rewards";
 
-export default function fishbowlEffect() {
+export default function FishbowlEffect() {
+  const [copied, setCopied] = useState(false);
+  const { reward: confettiReward, isAnimating: isConfettiAnimating } =
+    useReward("confettiReward", "confetti");
+
+  const confettiSpring = () => {
+    confettiReward();
+  };
+
+  const copy = () => {
+    const el = document.createElement("input");
+    el.value = window.location.href;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    setCopied(true);
+  };
   return (
     <div className="mt-20">
       <header className="mx-7">
@@ -162,8 +180,8 @@ export default function fishbowlEffect() {
           to unstick a back and fastest to sling a Herschel over their shoulder,
           all while narrowly avoiding the backpack induced decapitation of a
           Romanian family making their way to the pier behind me. “Thank you so
-          much! I really cannot express-“ I started. The driver cut me off.
-          “Go! What are you waiting for!?”
+          much! I really cannot express-“ I started. The driver cut me off. “Go!
+          What are you waiting for!?”
         </p>
         <p id="paragraph" className="mb-4">
           Back in the humidity, and with the five dollar sandals I purchased in
@@ -377,13 +395,37 @@ export default function fishbowlEffect() {
           anemone danced effortlessly along the current. Our group floated among
           the sub-aquatic scenery, simply observing.
         </p>
-        <p id="paragraph" className="mb-4">
+        <p id="final-paragraph" className="mb-4">
           Among the other divers and the thousands of eye catching fish swimming
           in absolute freedom, there was one thing I didn’t see: A glass fish
           bowl.
+          <button
+            disabled
+            className="ml-2 h-3 w-3 rounded-full bg-travel"
+          ></button>
         </p>
-        <div className="h-3 w-3 rounded-full bg-travel"></div>
-        <ContactRedirect />
+        <div className="flex my-10 justify-center space-x-2 mr-5">
+          <Link
+            href="/contact"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+          >
+            <p className="font-mono text-sm bg-transparent pt-[.15rem]">
+              CONTACT
+            </p>
+          </Link>
+          <button
+            id="confettiReward"
+            disabled={isConfettiAnimating}
+            onClick={() => {
+              copy(), confettiSpring();
+            }}
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+          >
+            <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
+              {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
+            </p>
+          </button>
+        </div>
       </motion.div>
     </div>
   );

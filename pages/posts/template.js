@@ -7,7 +7,7 @@ import { useReward } from "react-rewards";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function PostTemplate() {
+export default function Template() {
   const [copied, setCopied] = useState(false);
   const { reward: confettiReward, isAnimating: isConfettiAnimating } =
     useReward("confettiReward", "confetti");
@@ -121,14 +121,14 @@ export default function PostTemplate() {
         </h2>
         <p id="paragraph" className="mb-4">
           Lorem ipsum{" "}
-          <Link href="/" className="border-b-[4px] border-misc">
+          <Link href="/" className="border-b-[3px] border-misc">
             dolor
           </Link>{" "}
           sit amet consectetur adipisicing elit. Atque, explicabo fugiat qui
           recusandae accusantium quia autem facilis pariatur enim! Sed magni
           minima sequi nisi nulla optio non quod debitis ipsum.
         </p>
-        <div className="pt-8 pb-12 flex mx-auto justify-center">
+        <div id="dot-divider" className="mr-5 pt-8 pb-12 flex mx-auto justify-center">
           <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
           <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
           <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
@@ -139,13 +139,13 @@ export default function PostTemplate() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
-        <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+        <p id="final-paragraph" className="mb-20">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, similique alias vel tempore, iure quod delectus recusandae minus, deserunt in hic. Cupiditate deserunt illum, laborum ab assumenda voluptas. Sit, itaque.
+          <button
+            disabled
+            className="ml-2 h-3 w-3 rounded-full bg-inactive"
+          ></button>
         </p>
-        <div></div>
         <div className="flex my-10 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
