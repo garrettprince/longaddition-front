@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import ThumbnailTLMLPB from "/lib/components/ThumbnailTLMLPB.js";
-import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
-import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
+import Thumbnail from "../../lib/components/Thumbnail";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
@@ -25,19 +23,32 @@ export default function FishbowlEffect() {
     document.body.removeChild(el);
     setCopied(true);
   };
+
+  const thumbnailInfo = {
+    title: "The Fishbowl Effect",
+    type: "photoRight",
+    link: "/posts/the-fishbowl-effect",
+    titleSize: "text-4xl",
+    date: "",
+    category: "",
+    duration: "",
+    photo:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677050120/Long%20Addition/Posts/Losing%20Money%20In%20Australia/australiagroup_mm4z0a.png",
+    marginBottom: "mb-20",
+  };
   return (
     <div className="mt-20">
       <header className="mx-7">
-        <ThumbnailTLMLPR
-          key="misc"
-          link="/posts/losing-money-australia"
-          title="The Fishbowl Effect"
-          titleSize="text-4xl"
-          date=""
-          category=""
-          duration=""
-          photo="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677050120/Long%20Addition/Posts/Losing%20Money%20In%20Australia/australiagroup_mm4z0a.png"
-          marginBottom=""
+        <Thumbnail
+          title={thumbnailInfo.title}
+          type={thumbnailInfo.type}
+          key={thumbnailInfo.title}
+          link={thumbnailInfo.link}
+          category={thumbnailInfo.category}
+          titleSize={thumbnailInfo.titleSize}
+          date={thumbnailInfo.date}
+          duration={thumbnailInfo.duration}
+          photo={thumbnailInfo.photo}
         />
 
         <motion.div
@@ -110,12 +121,13 @@ export default function FishbowlEffect() {
           to:{" "}
           <span className="italic">I’m speeding so you can look at fish?</span>
         </p>
-        <div className="mb-4 mt-10">
+        <div className="mb-4 mt-10 ml-10 mr-14">
           <img
             alt=""
+            className="sm:h-48 mx-auto"
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/rearview_bdv15d.png"
           />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 1. DISBELIEF{" "}
           </p>
         </div>
@@ -157,12 +169,13 @@ export default function FishbowlEffect() {
           managed to book my trip to Australia during one of the country’s
           rainiest springs. Tragedy plus timing, as they say.
         </p>
-        <div className="mb-4 mt-10">
+        <div className="mb-4 mt-10 ml-10 mr-14">
           <img
             alt=""
+            className="sm:h-64 mx-auto"
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677907444/Long%20Addition/Posts/Losing%20Money%20In%20Australia/boat_kkx8sb.png"
           />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 2. BOAT (FOR DIVING){" "}
           </p>
         </div>
@@ -239,12 +252,13 @@ export default function FishbowlEffect() {
           fishbowl. She banged on the walls, but to no avail. They were so thick
           no one could hear.
         </p>
-        <div className="mb-4 mt-10">
+        <div className="mb-4 mt-10 ml-10 mr-14">
           <img
             alt=""
+            className="sm:h-64 mx-auto"
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/fishbowl_nrfmqh.png"
           />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 3. STANDARD FISH BOWL{" "}
           </p>
         </div>
@@ -273,12 +287,13 @@ export default function FishbowlEffect() {
           creating things that I actually enjoyed making: There I was, banging
           on the glass again.
         </p>
-        <div className="mb-4 mt-10">
+        <div className="mb-4 mt-10 ml-10 mr-14">
           <img
             alt=""
+            className="sm:h-64 mx-auto"
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/backturngarrett_ow3wd2.png"
           />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 4. MY PERSONAL FISH BOWL{" "}
           </p>
         </div>
@@ -354,12 +369,13 @@ export default function FishbowlEffect() {
           that I hadn’t really put much thought into all the uniquely aquatic
           ways I could die that morning.
         </p>
-        <div className="mb-4 mt-10">
+        <div className="mb-4 mt-10 ml-10 mr-14">
           <img
             alt=""
+            className="sm:h-64 mx-auto"
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906474/Long%20Addition/Posts/Losing%20Money%20In%20Australia/hermit_polbhn.png"
           />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 5. DEATH BY CRAB{" "}
           </p>
         </div>
@@ -379,12 +395,13 @@ export default function FishbowlEffect() {
           started breathing regularly like a human again, my focus redirected
           itself from basic biological survival to a quiet curiosity.
         </p>
-        <div className="mb-4 mt-10">
+        <div className="mb-4 mt-10 ml-10 mr-14">
           <img
             alt=""
+            className="sm:h-64 mx-auto"
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906473/Long%20Addition/Posts/Losing%20Money%20In%20Australia/schoolfish_c6lxdy.png"
           />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 6. SERENITY{" "}
           </p>
         </div>

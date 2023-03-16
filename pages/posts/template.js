@@ -1,7 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import ThumbnailTLMLPB from "/lib/components/ThumbnailTLMLPB.js";
-import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
-import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
 import Thumbnail from "../../lib/components/Thumbnail";
 import { motion } from "framer-motion";
 import { useReward } from "react-rewards";
@@ -29,16 +26,14 @@ export default function Template({}) {
   };
 
   const thumbnailInfo = {
-    title:
-      "This is the template for each post, please use wisely",
+    title: "This is the template for each post, please use wisely",
     type: "photoRight",
     link: "/posts/template",
     titleSize: "text-3xl",
     date: "",
     category: "",
     duration: "",
-    photo:
-      "/assets/brand/garretttest.png",
+    photo: "/assets/brand/garretttest.png",
     marginBottom: "",
   };
 
@@ -104,9 +99,13 @@ export default function Template({}) {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
-        <div className="mb-4 mt-10">
-          <img alt="" src="/assets/brand/garretttest.png" />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10 mr-5">
+        <div className="mb-4 mt-10 ml-10 mr-14">
+          <img
+            alt=""
+            className="sm:h-64 mx-auto"
+            src="/assets/brand/garretttest.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 1. A SAMPLE PICTURE{" "}
           </p>
         </div>

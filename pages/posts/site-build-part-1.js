@@ -1,26 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import ThumbnailTLMLPB from "/lib/components/ThumbnailTLMLPB.js";
-import ThumbnailTLMLPR from "/lib/components/ThumbnailTLMLPR.js";
-import ThumbnailTRMRPL from "/lib/components/ThumbnailTRMRPL.js";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import EmojiReact from "../../lib/components/EmojiReact";
 
 export default function SiteBuildPart1() {
   return (
     <div className="mt-20">
       <header className="mx-7">
-        <ThumbnailTRMRPL
-          key="misc"
-          link="/posts/site-build-part-1"
-          title="Second test to see what a different title looks like"
-          titleSize="text-4xl"
-          date=""
-          category=""
-          duration=""
-          photo="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677734937/Long%20Addition/Posts/Long%20Addition%20Site%20Build%20Pt.%201:%20I%20Don%27t%20Know%20What%20I%27m%20Doing/orangemac_bwp8xa.png"
-          marginBottom=""
-        />
+       
 
         <motion.div
           id="info"
