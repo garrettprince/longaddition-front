@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Thumbnail from "../../lib/components/Thumbnail";
+import Thumbnail from "../../../lib/components/Thumbnail";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
@@ -37,7 +37,7 @@ export default function FishbowlEffect() {
     marginBottom: "mb-20",
   };
   return (
-    <div className="mt-20">
+    <div className="mt-24">
       <header className="mx-7">
         <Thumbnail
           title={thumbnailInfo.title}
