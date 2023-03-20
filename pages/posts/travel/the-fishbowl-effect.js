@@ -350,7 +350,7 @@ export default function FishbowlEffect() {
           amongst the crew as they set out explaining the ins and outs of The
           Great Barrier Reef. As I fell into the “first timers” bucket, I
           listened attentively to the warnings of “If you touch this specific
-          hermit crab and it stabs you, you’ll have four minutes live” and “you
+          hermit crab and it stabs you, you’ll have four minutes to live” and “you
           may have to fight off this type of fish”. The warnings were wrapped
           nicely in a “have fun and be safe!” as we side-eyed each other amidst
           a chorus of hesitant laughter.

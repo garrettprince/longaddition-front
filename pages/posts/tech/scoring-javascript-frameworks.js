@@ -122,7 +122,7 @@ export default function ScoringJavascriptFrameworks() {
           solely on the factors listed above. It’s unsettling and provocative.
           It’s meaningless. It’s time.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
           SvelteKit
         </p>
         <div className="mb-4 mt-10 ml-10 mr-14">
@@ -163,61 +163,258 @@ export default function ScoringJavascriptFrameworks() {
           <span className="font-bold">658 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="font-bold">How It Sounds:</span> Velvety. Like
-          ice cream on a shag carpet. Like I just combed my hair with my
-          cousin’s comb. <span className="font-bold">433 points.</span>
+          <span className="font-bold">How It Sounds:</span> Velvety. Like ice
+          cream on a shag carpet. Like I just combed my hair with my cousin’s
+          comb. <span className="font-bold">433 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="font-bold">Logo Shape:</span> Velvety. Like
-          ice cream on a shag carpet. Like I just combed my hair with my
-          cousin’s comb. <span className="font-bold">433 points.</span>
-        </p>
-        <p id="paragraph" className="mb-4">
-          <span className="font-bold">How the name sounds:</span> Velvety. Like
-          ice cream on a shag carpet. Like I just combed my hair with my
-          cousin’s comb. <span className="font-bold">433 points.</span>
-        </p>
-        <h2
-          id="pullquote"
-          className="mb-11 mt-10 text-3xl font-bold text-center mr-5"
-        >
-          This is a <span className=" ">pullquote</span> with multiple lines and
-          even more text
-        </h2>
-        <p id="paragraph" className="mb-4">
-          Lorem ipsum{" "}
+          <span className="font-bold">Logo Shape:</span>{" "}
           <Link
-            href="/"
-            className="border-b-[3px] border-misc cursor-pointer bg-transparent pb-[.1rem]"
+            href="https://www.youtube.com/watch?v=nhxDVYaO3eM&ab_channel=LucaConte"
+            className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
           >
-            dolor
-          </Link>{" "}
-          sit amet consectetur adipisicing elit. Atque, explicabo fugiat qui
-          recusandae accusantium quia autem facilis pariatur enim! Sed magni
-          minima sequi nisi nulla optio non quod debitis ipsum.
+            Simple And Clean (PlaniTb Remix).
+          </Link>
+          <span className="font-bold"> 375 points.</span>
         </p>
-        <div
-          id="dot-divider"
-          className="mr-5 pt-8 pb-12 flex mx-auto justify-center"
-        >
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Doorstep Line:</span> “Can you see my
+          member through these joggies?”{" "}
+          <span className="font-bold">445 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Overall Attraction Score:</span>{" "}
+          <span className="font-bold">988 points.</span> Vah vah voom!
+        </p>
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
+          Astro
+        </p>
+        <div className="mb-4 mt-10 ml-10 mr-14">
+          <img
+            alt=""
+            className="sm:h-64 mx-auto h-48"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/astro_kbnec6.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
+            FIG 3. &quot;A&quot; BLASTING OFF{" "}
+          </p>
         </div>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          <span className="font-bold">My Experience</span>: Funny enough, I had
+          planned to use Astro with its MDX and Tailwind integrations for this
+          very website (read more about that here) (link). It’s incredibly
+          alluring knowing you can incorporate components from other frameworks.
+          Astro is this gymnast that wants to prove how flexible they are, but
+          in reality, I just want quiet missionary with the lava lamp off.
         </p>
-        <p id="final-paragraph" className="mb-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-          similique alias vel tempore, iure quod delectus recusandae minus,
-          deserunt in hic. Cupiditate deserunt illum, laborum ab assumenda
-          voluptas. Sit, itaque.
+
+        <p id="paragraph" className="mb-4">
+          I ended up changing my mind pretty early in the build considering a
+          few issues I had with the icons integration and made the (good?/bad?)
+          decision to forego MDX completely for writing elsewhere (the Apple
+          Notes app) and publishing in JSX.{" "}
+          <span className="font-bold">342 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">How It Sounds:</span> Warm like hot heat.{" "}
+          <span className="font-bold">343 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Logo Shape:</span> Sharp and round in all
+          the right places. The type of ‘A’ you’d see on a Minor League Baseball
+          jersey.
+          <span className="font-bold"> 344 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Doorstep Line:</span> “Watch this.” I
+          stand motionless as Astro Grudge-crawls a figure eight across the dewy
+          apartment complex lawn. <span className="font-bold">305 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Overall Attraction Score:</span>{" "}
+          <span className="font-bold">897 points.</span> I got the ick after the
+          first date but will probably hit them up after a few plates(?) of
+          Chardonnay.
+        </p>
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
+          React
+        </p>
+        <div className="mb-4 mt-10 ml-10 mr-14">
+          <img
+            alt=""
+            className="sm:h-64 mx-auto h-48"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/react_mgeufy.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
+            FIG 4. AN OLD FRIEND{" "}
+          </p>
+        </div>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">My Experience</span>: I may be a bit
+          biased here. I (like many others) chose React as the first framework
+          to spend time in after working in vanilla Javascript for a few months.
+          I knew it was the most popular, had the highest likelihood of job
+          opportunities, and the most robust selection of external libraries.
+          React, to me, is old reliable.
+        </p>
+
+        <p id="paragraph" className="mb-4">
+          I can see React smoking a black and mild, hunched over the corner of a
+          well worn queen mattress at a single story, roadside motel.
+        </p>
+        <p id="paragraph" className="mb-4">
+          “Hey.” I say. “Hey.” They say back. “How’ve you been?” They take a
+          long drag and look up at their reflection in the Zenith tube tv. “You
+          really want to know? Or should we just jump into it?” I keep my
+          stringer on (I had just broken a bench press record). “Yeah, I really
+          want to know.” React lets out a soft laugh and ashes their cigarette
+          on my Crocs. “It’s{" "}
+          <Link
+            href="https://javascript.plainenglish.io/why-create-react-app-is-outdated-in-2022-b1d9c99e18d0#:~:text=While%20this%20is%20super%20convenient,you%20dislike%20the%20default%20configuration"
+            className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
+          >
+            been
+          </Link>
+          …{" "}
+          <Link
+            href="https://devclass.com/2022/11/07/interview-react-server-components-still-a-very-unproven-architecture-says-jamstack-advocate-matt-biilmann/"
+            className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
+          >
+            Interesting
+          </Link>
+          .”<span className="font-bold"> 408 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">How It Sounds:</span> Like a knee-jerk
+          coping mechanism. Or two beakers making contact. An eye wash station.{" "}
+          <span className="font-bold">120 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Logo Shape:</span> Unimpressive. That is,
+          until I found out there was an outline of a ‘bolt’ as a reference to
+          bolt.js in the center of the logo. Sneaky and cool, React. Sneaky and
+          cool.
+          <span className="font-bold"> 450 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Doorstep Line:</span> “I think we both
+          know where this is going.”{" "}
+          <span className="font-bold">367 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Overall Attraction Score:</span>{" "}
+          <span className="font-bold">910 points.</span> There is comfort in the
+          known.
+        </p>
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
+          Vue
+        </p>
+        <div className="mb-4 mt-10 ml-10 mr-14">
+          <img
+            alt=""
+            className="sm:h-64 mx-auto h-48"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/vue_lwrkjn.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
+            FIG 5. COMPLIMENTARY COLORS{" "}
+          </p>
+        </div>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">My Experience</span>: It’s limited, but I
+          didn’t mind the brief time I shared with Vue. It was my introduction
+          to the template/script/style split in a single file, which made way
+          more sense to my brain. And this was about the time I started
+          experimenting with Tailwind, so the two of those together felt
+          incredibly natural. I’m aware that I was working in a Vue 2 project,
+          which handles data significantly differently than Vue 3, but even
+          still, it felt a bit boring. There was nothing inherently wrong with
+          Vue, just no spark. <span className="font-bold"> 401 points.</span>
+        </p>
+
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">How It Sounds:</span> Respectfully
+          invasive. Futuristic. But the kind of futuristic where everyone moved
+          underground and our eyes shriveled up into raisins because we didn’t
+          use them. <span className="font-bold">320 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Logo Shape:</span> High cheekbones and a
+          green that will make you call your parents for unrelated reasons.
+          <span className="font-bold"> 207 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Doorstep Line:</span> “I had a great time
+          tonight.” Vue says, already walking away. “Bowling was a blast.”
+          Almost out of earshot at this point. “We should do this again
+          sometime.” <span className="font-bold">128 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Overall Attraction Score:</span>{" "}
+          <span className="font-bold">815 points.</span> Side hug.
+        </p>
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
+          Next
+        </p>
+        <div className="mb-4 mt-10 ml-10 mr-14">
+          <img
+            alt=""
+            className="sm:h-64 mx-auto h-48"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/next_oulsqz.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
+            FIG 6. MORE THAN FRIENDS{" "}
+          </p>
+        </div>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">My Experience</span>: Next is, simply put,
+          my favorite framework (again, meta-framework if we’re being picky) to
+          work with. It is my go to for starting any new project. It’s a
+          performant and expandable React. It’s incredibly well maintained and
+          while I’m dragging my feet a bit on upgrading to Next 13, I have
+          complete faith in the direction its headed.{" "}
+          <span className="font-bold"> 521 points.</span>
+        </p>
+
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">How It Sounds:</span> Playfully deceiving.
+          There is no “next”. There is only “here and now” when using Next.{" "}
+          <span className="font-bold">345 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Logo Shape:</span> My single complaint.
+          Derivative of the Latin letter “N”.
+          <span className="font-bold"> 213 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Doorstep Line:</span> “Let’s head inside
+          and talk about Cap’n Crunch’s Crunching Adventure over a piece(?) of
+          Chardonnay.” <span className="italic">
+            Context: I like talking about Cap’n Crunch’s Crunching
+            Adventure.
+          </span> <span className="font-bold">455 points.</span>
+        </p>
+        <p id="paragraph" className="mb-4">
+          <span className="font-bold">Overall Attraction Score:</span>{" "}
+          <span className="font-bold">1043 points.</span> I still get
+          butterflies typing create-next-app.
+        </p>
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
+          Conclusion
+        </p>
+        <p id="paragraph" className="mb-4">
+          Every framework has their strengths. Literally, each framework can
+          lift a metric ton. That being said, there can only be one ranked “Most
+          Moist” on The Sweaty Number. After careful consideration and with all
+          deductions added, the winner is:
+        </p>
+        <p id="paragraph" className="mb-4">
+          Holy shit, it’s a tie! That’s not what I was expecting at all.
+          Seriously, go back and add all of those numbers together if you don’t
+          believe me. Absolutely bonkers. That’s never happened before. I’ll
+          need to rework the scoring system for this scale I’ll never use again.
           <button
             disabled
-            className="ml-2 h-3 w-3 rounded-full bg-inactive"
+            className="ml-2 h-3 w-3 rounded-full bg-tech"
           ></button>
         </p>
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
