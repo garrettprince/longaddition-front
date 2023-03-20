@@ -26,16 +26,17 @@ export default function KingPeentyRedRubies() {
   };
 
   const thumbnailInfo = {
-    title: "This is the template for each post, please use wisely",
-    type: "photoRight",
-    link: "/posts/template",
-    titleSize: "text-3xl",
-    date: "",
-    category: "",
-    duration: "",
-    photo: "/assets/brand/garretttest.png",
-    marginBottom: "",
-  };
+      title: "The Search For King Peenty's Big Red Rubies",
+      type: "photoLeft",
+      link: "/posts/travel/king-peenty-red-rubies",
+      titleSize: "text-4xl",
+      date: "",
+      category: "",
+      duration: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679349667/Long%20Addition/Posts/The%20Search%20For%20King%20Peenty%27s%20Big%20Red%20Rubies/rubyaction_etjkyy.png",
+      marginBottom: "mb-20",
+    };
 
   return (
     <div className="mt-24">

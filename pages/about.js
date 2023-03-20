@@ -11,7 +11,7 @@ export default function About() {
     "My name is Garrett and I am the strongest man or woman to cry at an Olive Garden.",
     "My name is Garrett and I'm the oldest living child.",
     "My name is Garrett and I'm the first person to grow, use, then lose human skin wings.",
-    "My name is Garrett and I fell in love with Dierdre on TLC's 'My 800lb Wish'.",
+    "My name is Garrett and I fell in love with Maeve on TLC's 'My 800lb Wish'.",
     "My name is Garrett and I was number Bergy in Forbes' Bergy Under Bergy List.",
     "My name is Garrett and in 10 years I will be replaced by Sammy Hagar.",
   ];
