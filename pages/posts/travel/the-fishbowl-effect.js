@@ -33,7 +33,7 @@ export default function FishbowlEffect() {
     category: "",
     duration: "",
     photo:
-      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677050120/Long%20Addition/Posts/Losing%20Money%20In%20Australia/australiagroup_mm4z0a.png",
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679812065/Long%20Addition/Posts/Losing%20Money%20In%20Australia/collageraised_w9snh3.png",
     marginBottom: "mb-20",
   };
   return (
@@ -125,7 +125,7 @@ export default function FishbowlEffect() {
           <img
             alt=""
             className="sm:h-48 mx-auto"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/rearview_bdv15d.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679811612/Long%20Addition/Posts/Losing%20Money%20In%20Australia/rearviewraised_yaeulx.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 1. DISBELIEF{" "}
@@ -173,7 +173,7 @@ export default function FishbowlEffect() {
           <img
             alt=""
             className="sm:h-64 mx-auto"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677907444/Long%20Addition/Posts/Losing%20Money%20In%20Australia/boat_kkx8sb.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679811613/Long%20Addition/Posts/Losing%20Money%20In%20Australia/boatraised_txhfjl.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 2. BOAT (FOR DIVING){" "}
@@ -256,7 +256,7 @@ export default function FishbowlEffect() {
           <img
             alt=""
             className="sm:h-64 mx-auto"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/fishbowl_nrfmqh.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679811612/Long%20Addition/Posts/Losing%20Money%20In%20Australia/fishbowlraised_xjbvni.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 3. STANDARD FISH BOWL{" "}
@@ -291,7 +291,7 @@ export default function FishbowlEffect() {
           <img
             alt=""
             className="sm:h-64 mx-auto"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906472/Long%20Addition/Posts/Losing%20Money%20In%20Australia/backturngarrett_ow3wd2.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679811612/Long%20Addition/Posts/Losing%20Money%20In%20Australia/backturnedraised_x7bysv.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 4. MY PERSONAL FISH BOWL{" "}
@@ -350,10 +350,10 @@ export default function FishbowlEffect() {
           amongst the crew as they set out explaining the ins and outs of The
           Great Barrier Reef. As I fell into the “first timers” bucket, I
           listened attentively to the warnings of “If you touch this specific
-          hermit crab and it stabs you, you’ll have four minutes to live” and “you
-          may have to fight off this type of fish”. The warnings were wrapped
-          nicely in a “have fun and be safe!” as we side-eyed each other amidst
-          a chorus of hesitant laughter.
+          hermit crab and it stabs you, you’ll have four minutes to live” and
+          “you may have to fight off this type of fish”. The warnings were
+          wrapped nicely in a “have fun and be safe!” as we side-eyed each other
+          amidst a chorus of hesitant laughter.
         </p>
         <p
           id="pullquote"
@@ -373,7 +373,7 @@ export default function FishbowlEffect() {
           <img
             alt=""
             className="sm:h-64 mx-auto"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906474/Long%20Addition/Posts/Losing%20Money%20In%20Australia/hermit_polbhn.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679811616/Long%20Addition/Posts/Losing%20Money%20In%20Australia/crabraised_yian4x.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 5. DEATH BY CRAB{" "}
@@ -399,7 +399,7 @@ export default function FishbowlEffect() {
           <img
             alt=""
             className="sm:h-64 mx-auto"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677906473/Long%20Addition/Posts/Losing%20Money%20In%20Australia/schoolfish_c6lxdy.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679811614/Long%20Addition/Posts/Losing%20Money%20In%20Australia/fishraised_mpv59t.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 6. SERENITY{" "}

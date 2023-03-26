@@ -27,7 +27,7 @@ export default function ScoringJavascriptFrameworks() {
 
   const thumbnailInfo = {
     title:
-      "Scoring 5 Javascript Frameworks On How Physically Attracted I Am To Them",
+      "Scoring 5 Javascript Frameworks By How Physically Attracted I Am To Them",
     type: "photoRight",
     link: "/posts/tech/scoring-javascript-frameworks",
     titleSize: "text-3xl",
@@ -35,7 +35,7 @@ export default function ScoringJavascriptFrameworks() {
     category: "",
     duration: "",
     photo:
-      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679097973/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/roses2_p4fset.png",
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679806795/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/roseraised2_dx4gcy.png",
     marginBottom: "mb-20",
   };
 
@@ -101,14 +101,14 @@ export default function ScoringJavascriptFrameworks() {
           <img
             alt=""
             className="sm:h-64 mx-auto"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679104312/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/vanilaacookie_gjdhqo.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679809855/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/cookiesraised_bryq5z.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 1. CHARDONNAY(?){" "}
           </p>
         </div>
         <p id="paragraph" className="mb-4">
-          Today, I’ll be doing the Lord’s work: Scoring javascript frameworks
+          Today, I’ll be doing the Lord’s work: Scoring Javascript frameworks
           (and meta-frameworks) on a completely arbitrary number system ranging
           from 0 to 2000. This scale is called The Sweaty Number. My physical
           attraction to and how I rank these frameworks will be based on four
@@ -118,9 +118,8 @@ export default function ScoringJavascriptFrameworks() {
         </p>
         <p id="paragraph" className="mb-4">
           And let’s be honest here: It’s subjective, but the beauty of this
-          Bicentennial Man romance is that subjective is good. It will be based
-          solely on the factors listed above. It’s unsettling and provocative.
-          It’s meaningless. It’s time.
+          Bicentennial Man romance is that subjective is good. It’s unsettling
+          and provocative. It’s meaningless. It’s time.
         </p>
         <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
           SvelteKit
@@ -129,7 +128,7 @@ export default function ScoringJavascriptFrameworks() {
           <img
             alt=""
             className="sm:h-64 mx-auto h-48"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103759/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/sveltekit_jnbn7l.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679809856/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/svelteraised_rcwwwx.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 2. TWO ORANGES{" "}
@@ -146,14 +145,14 @@ export default function ScoringJavascriptFrameworks() {
             href="https://www.montanahead.com"
             className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
           >
-            a demo site for a band I was in
+            a demo site for a band I&apos;m in
           </Link>{" "}
           and overall it was a pleasant experience. Building the site, that is.
           Not the band. Tons of infighting. Very Fleetwood Mac. Jealousy. Lots
           of weird sex stuff.
         </p>
         <p id="paragraph" className="mb-4">
-          It was just me in the band.
+          It&apos;s just me in the band.
         </p>
         <p id="paragraph" className="mb-4">
           In addition, the built in transitions were nice, ‘if’ blocks were a
@@ -193,7 +192,7 @@ export default function ScoringJavascriptFrameworks() {
           <img
             alt=""
             className="sm:h-64 mx-auto h-48"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/astro_kbnec6.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679809855/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/astroraised_vkmd7l.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 3. &quot;A&quot; BLASTING OFF{" "}
@@ -243,7 +242,7 @@ export default function ScoringJavascriptFrameworks() {
           <img
             alt=""
             className="sm:h-64 mx-auto h-48"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/react_mgeufy.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679809855/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/reactraised_huhqtv.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 4. AN OLD FRIEND{" "}
@@ -313,7 +312,7 @@ export default function ScoringJavascriptFrameworks() {
           <img
             alt=""
             className="sm:h-64 mx-auto h-48"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/vue_lwrkjn.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679809856/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/vueraised_qmvryo.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 5. COMPLIMENTARY COLORS{" "}
@@ -359,7 +358,7 @@ export default function ScoringJavascriptFrameworks() {
           <img
             alt=""
             className="sm:h-64 mx-auto h-48"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679103760/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/next_oulsqz.png"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679809856/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/nextraised_uceygp.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
             FIG 6. MORE THAN FRIENDS{" "}
@@ -388,10 +387,17 @@ export default function ScoringJavascriptFrameworks() {
         <p id="paragraph" className="mb-4">
           <span className="font-bold">Doorstep Line:</span> “Let’s head inside
           and talk about Cap’n Crunch’s Crunching Adventure over a piece(?) of
-          Chardonnay.” <span className="italic">
-            Context: I like talking about Cap’n Crunch’s Crunching
-            Adventure.
-          </span> <span className="font-bold">455 points.</span>
+          Chardonnay.”{" "}
+          <span className="italic">
+            Context:{" "}
+            <Link
+              href="/posts/visual/what-happened-to-crunchlings "
+              className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
+            >
+              I like talking about Cap’n Crunch’s Crunching Adventure.
+            </Link>
+          </span>{" "}
+          <span className="font-bold">455 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">Overall Attraction Score:</span>{" "}

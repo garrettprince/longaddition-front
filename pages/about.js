@@ -37,7 +37,7 @@ export default function About() {
             I&apos;ve spent (and will continue to spend) my entire life
             circumnavigating the globe as a treasure hunter in search of{" "}
             <Link
-              href="/"
+              href="/posts/travel/king-peenty-red-rubies"
               className="border-b-[3px] pb-[.1rem] border-cta cursor-pointer bg-transparent"
             >
               King Peenty&apos;s Big Red Rubies.
