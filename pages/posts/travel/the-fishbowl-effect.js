@@ -152,7 +152,7 @@ export default function FishbowlEffect() {
           “Have you been to The Great Barrier Reef?” I asked, deciding to volley
           back some small talk to drown out the car horns. He kept his eyes on
           the road this time. “Uh, yeah.” He signaled to get over a lane. “It
-          was… great.” 7:56. Maybe silence isn’t so bad.
+          was… great.” 7:56. Maybe silence wasn&apos;t so bad.
         </p>
         <p id="paragraph" className="mb-4">
           I pulled out my phone again. 8:04 arrival.{" "}

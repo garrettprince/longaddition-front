@@ -4,16 +4,16 @@ import Link from "next/link";
 
 export default function About() {
   const rotatingPhrases = [
-    "My name is Garrett and I'm the first person to stand up really fast, hunched over, when the plane lands and the doors aren't open yet.",
-    "My name is Garrett and I'm the first person to feel sorrow on a jetski.",
-    "My name is Garrett and I'm very impressed with paintings and I understand all art.",
-    "My name is Garrett and I was the Gerder baby.",
-    "My name is Garrett and I am the strongest man or woman to cry at an Olive Garden.",
-    "My name is Garrett and I'm the oldest living child.",
-    "My name is Garrett and I'm the first person to grow, use, then lose human skin wings.",
-    "My name is Garrett and I fell in love with Maeve on TLC's 'My 800lb Wish'.",
-    "My name is Garrett and I was number Bergy in Forbes' Bergy Under Bergy List.",
-    "My name is Garrett and in 10 years I will be replaced by Sammy Hagar.",
+    "My name is Garrett Prince and I'm the first person to stand up really fast, hunched over, when the plane lands and the doors aren't open yet.",
+    "My name is Garrett Prince and I'm the first person to feel sorrow on a jetski.",
+    "My name is Garrett Prince and I'm very impressed with paintings and I understand all art.",
+    "My name is Garrett Prince and I was the Gerder baby.",
+    "My name is Garrett Prince and I am the strongest man or woman to cry at an Olive Garden.",
+    "My name is Garrett Prince and I'm the oldest living child.",
+    "My name is Garrett Prince and I'm the first person to grow, use, then lose human skin wings.",
+    "My name is Garrett Prince and I fell in love with Maeve on TLC's 'My 800lb Wish'.",
+    "My name is Garrett Prince and I was number Bergy in Forbes' Bergy Under Bergy List.",
+    "My name is Garrett Prince and in 10 years I will be replaced by Sammy Hagar.",
   ];
 
   return (
@@ -33,8 +33,8 @@ export default function About() {
             }
           </p>{" "}
           <p className="mb-4 bg-transparent">
-            I mostly write words, music, and software. In addition to my writing,
-            I&apos;ve spent (and will continue to spend) my entire life
+            I mostly write words, music, and software. In addition to my
+            writing, I&apos;ve spent (and will continue to spend) my entire life
             circumnavigating the globe as a treasure hunter in search of{" "}
             <Link
               href="/posts/travel/king-peenty-red-rubies"
@@ -44,8 +44,9 @@ export default function About() {
             </Link>{" "}
           </p>
           <p className="mb-4 bg-transparent">
-            Long Addition is part dumping ground, part personal catalogue, and part art installation. I
-            talk more about it{" "}
+            Long Addition is part dumping ground, part personal catalogue, and
+            part art installation. This site acts as my primary outlet for my personal philosophy of
+            making things until I&apos;m dead. I talk more about it{" "}
             <Link
               href="/"
               className="border-b-[3px] pb-[.1rem] border-cta cursor-pointer bg-transparent"

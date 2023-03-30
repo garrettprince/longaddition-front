@@ -157,7 +157,7 @@ export default function ScoringJavascriptFrameworks() {
         <p id="paragraph" className="mb-4">
           In addition, the built in transitions were nice, ‘if’ blocks were a
           cool way to look at conditional rendering, and while I didn’t need to
-          use the universal stores for that project, it seemed way easier to use
+          use the universal stores for that project, it seemed way easier to use when
           compared to something like Redux.{" "}
           <span className="font-bold">658 points.</span>
         </p>
