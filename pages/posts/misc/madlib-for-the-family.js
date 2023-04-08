@@ -35,6 +35,8 @@ export default function MadlibForTheFamily() {
     date: "",
     category: "",
     duration: "",
+    series: false,
+    seriesTitle: "",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680049461/Long%20Addition/Posts/I%20Made%20A%20Madlib/thumbnailraised_j068qn.png",
     marginBottom: "mb-20",
@@ -54,6 +56,8 @@ export default function MadlibForTheFamily() {
           date={thumbnailInfo.date}
           duration={thumbnailInfo.duration}
           photo={thumbnailInfo.photo}
+          series={thumbnailInfo.series}
+          seriesTitle={thumbnailInfo.seriesTitle}
         />
 
         <motion.div

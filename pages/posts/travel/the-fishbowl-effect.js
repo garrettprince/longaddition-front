@@ -32,6 +32,8 @@ export default function FishbowlEffect() {
     date: "",
     category: "",
     duration: "",
+    series: false,
+    seriesTitle: "",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679812065/Long%20Addition/Posts/Losing%20Money%20In%20Australia/collageraised_w9snh3.png",
     marginBottom: "mb-20",
@@ -49,6 +51,8 @@ export default function FishbowlEffect() {
           date={thumbnailInfo.date}
           duration={thumbnailInfo.duration}
           photo={thumbnailInfo.photo}
+          series={thumbnailInfo.series}
+          seriesTitle={thumbnailInfo.seriesTitle}
         />
 
         <motion.div

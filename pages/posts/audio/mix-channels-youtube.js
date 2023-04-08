@@ -33,6 +33,8 @@ export default function MixChannelsYoutube() {
     date: "",
     category: "",
     duration: "",
+    series: false,
+    seriesTitle: "",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680657574/Long%20Addition/Posts/Mix%20Channels%20on%20Youtube/thumbnail_skwygo.png",
     marginBottom: "",
@@ -51,6 +53,8 @@ export default function MixChannelsYoutube() {
           date={thumbnailInfo.date}
           duration={thumbnailInfo.duration}
           photo={thumbnailInfo.photo}
+          series={thumbnailInfo.series}
+          seriesTitle={thumbnailInfo.seriesTitle}
         />
 
         <motion.div
@@ -68,7 +72,7 @@ export default function MixChannelsYoutube() {
           </div>
           <div>
             <p className="text-sm bg-transparent text-inactive font-mono text-right">
-              MISC
+              AUDIO
             </p>
             <p className="text-sm bg-transparent text-inactive font-mono text-right">
               15 MIN

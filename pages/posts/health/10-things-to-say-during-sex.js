@@ -33,6 +33,8 @@ export default function ThingsToSayDuringSex() {
     date: "",
     category: "",
     duration: "",
+    series: false,
+    seriesTitle: "",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679861498/Long%20Addition/Posts/Not%20Vocal%20Enough/thumbnailraised_v9a4rc.png",
     marginBottom: "mb-20",
@@ -52,6 +54,8 @@ export default function ThingsToSayDuringSex() {
           date={thumbnailInfo.date}
           duration={thumbnailInfo.duration}
           photo={thumbnailInfo.photo}
+          series={thumbnailInfo.series}
+          seriesTitle={thumbnailInfo.seriesTitle}
         />
 
         <motion.div

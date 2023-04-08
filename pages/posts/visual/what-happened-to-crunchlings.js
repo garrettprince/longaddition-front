@@ -33,6 +33,8 @@ export default function WhatHappenedCrunchlings() {
     date: "",
     category: "",
     duration: "",
+    series: false,
+    seriesTitle: "",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679793057/Long%20Addition/Posts/What%20Happened%20To%20My%20Crunchlings/crunchgroup2_vwuvzq.png",
     marginBottom: "",
@@ -51,6 +53,8 @@ export default function WhatHappenedCrunchlings() {
           date={thumbnailInfo.date}
           duration={thumbnailInfo.duration}
           photo={thumbnailInfo.photo}
+          series={thumbnailInfo.series}
+          seriesTitle={thumbnailInfo.seriesTitle}
         />
 
         <motion.div

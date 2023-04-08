@@ -33,6 +33,8 @@ export default function Template() {
     date: "",
     category: "",
     duration: "",
+    series: false,
+    seriesTitle: "",
     photo: "/assets/brand/garretttest.png",
     marginBottom: "",
   };
@@ -50,6 +52,8 @@ export default function Template() {
           date={thumbnailInfo.date}
           duration={thumbnailInfo.duration}
           photo={thumbnailInfo.photo}
+          series={thumbnailInfo.series}
+          seriesTitle={thumbnailInfo.seriesTitle}
         />
 
         <motion.div

@@ -34,6 +34,8 @@ export default function ScoringJavascriptFrameworks() {
     date: "",
     category: "",
     duration: "",
+    series: false,
+    seriesTitle: "",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679806795/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/roseraised2_dx4gcy.png",
     marginBottom: "mb-20",
@@ -52,6 +54,8 @@ export default function ScoringJavascriptFrameworks() {
           date={thumbnailInfo.date}
           duration={thumbnailInfo.duration}
           photo={thumbnailInfo.photo}
+          series={thumbnailInfo.series}
+          seriesTitle={thumbnailInfo.seriesTitle}
         />
 
         <motion.div
@@ -157,8 +161,8 @@ export default function ScoringJavascriptFrameworks() {
         <p id="paragraph" className="mb-4">
           In addition, the built in transitions were nice, ‘if’ blocks were a
           cool way to look at conditional rendering, and while I didn’t need to
-          use the universal stores for that project, it seemed way easier to use when
-          compared to something like Redux.{" "}
+          use the universal stores for that project, it seemed way easier to use
+          when compared to something like Redux.{" "}
           <span className="font-bold">658 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
