@@ -26,17 +26,17 @@ export default function SiteBuildPart1() {
   };
 
   const thumbnailInfo = {
-      title: "Long Addition Site Build Pt. 1: I Don't Know What I'm Doing",
-      type: "photoLeft",
-      link: "/posts/tech/site-build-part-1",
-      titleSize: "text-3xl",
-      date: "02.04.23",
-      category: "tech",
-      duration: "10 min",
-      photo:
-        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677734937/Long%20Addition/Posts/Long%20Addition%20Site%20Build%20Pt.%201:%20I%20Don%27t%20Know%20What%20I%27m%20Doing/orangemac_bwp8xa.png",
-      marginBottom: "mb-20",
-    };
+    title: "Long Addition Site Build Pt. 1: I Don't Know What I'm Doing",
+    type: "photoLeft",
+    link: "/posts/tech/site-build-part-1",
+    titleSize: "text-3xl",
+    date: "02.04.23",
+    category: "tech",
+    duration: "10 min",
+    photo:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680712453/Long%20Addition/Posts/Long%20Addition%20Site%20Build%20Pt.%201:%20I%20Don%27t%20Know%20What%20I%27m%20Doing/thumbnail_tkabhr.png",
+    marginBottom: "mb-20",
+  };
 
   return (
     <div className="mt-24">

@@ -163,110 +163,111 @@ export default function MadlibForTheFamily() {
               country: "",
             }}
             onSubmit={async (values) => {
-              // addCard(values);
               setShowStory(true);
             }}
           >
-            <Form className=" p-3 space-y-3 rounded-xl mr-4 mt-10 sm:w-96 text-white sm:mx-auto mb-24">
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  ADJECTIVE
-                </p>
-                <Field
-                  type="text"
-                  name="adj1"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  VERB
-                </p>
-                <Field
-                  type="text"
-                  name="verb1"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  NOUN
-                </p>
-                <Field
-                  type="text"
-                  name="noun1"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  PROPER NOUN
-                </p>
-                <Field
-                  type="text"
-                  name="pnoun1"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  VERB
-                </p>
-                <Field
-                  type="text"
-                  name="verb2"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  EXCLAMATION
-                </p>
-                <Field
-                  type="text"
-                  name="exclaim"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  ADJECTIVE
-                </p>
-                <Field
-                  type="text"
-                  name="adj2"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
-                  NOUN
-                </p>
-                <Field
-                  type="text"
-                  name="noun2"
-                  className=" pl-2 ml-5 w-full rounded-lg border border-white/20"
-                />
-              </div>
-              <div className="flex items-center bg-transparent">
-                <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive mb-8">
-                  COUNTRY
-                </p>
-                <Field
-                  type="text"
-                  name="country"
-                  className="pl-2 ml-3 w-full rounded-lg border border-white/20 mb-8"
-                />
-              </div>
-              <button
-                type="submit"
-                className="mx-auto cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
-              >
-                <p className="font-mono px-5 text-sm bg-transparent pt-[.15rem]">
-                  SUBMIT
-                </p>
-              </button>
-            </Form>
+            {({ values, errors, touched, dirty, setFieldValue }) => (
+              <Form className=" p-3 space-y-3 rounded-xl mr-4 mt-10 sm:w-96 text-white sm:mx-auto mb-24">
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    ADJECTIVE
+                  </p>
+                  <Field
+                    type="text"
+                    name="adj1"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    VERB
+                  </p>
+                  <Field
+                    type="text"
+                    name="verb1"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    NOUN
+                  </p>
+                  <Field
+                    type="text"
+                    name="noun1"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    PROPER NOUN
+                  </p>
+                  <Field
+                    type="text"
+                    name="pnoun1"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    VERB
+                  </p>
+                  <Field
+                    type="text"
+                    name="verb2"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    EXCLAMATION
+                  </p>
+                  <Field
+                    type="text"
+                    name="exclaim"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    ADJECTIVE
+                  </p>
+                  <Field
+                    type="text"
+                    name="adj2"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive">
+                    NOUN
+                  </p>
+                  <Field
+                    type="text"
+                    name="noun2"
+                    className=" pl-2 ml-5 w-full rounded-lg border border-white/20"
+                  />
+                </div>
+                <div className="flex items-center bg-transparent">
+                  <p className="text-center font-mono bg-transparent text-sm w-28 text-inactive mb-8">
+                    COUNTRY
+                  </p>
+                  <Field
+                    type="text"
+                    name="country"
+                    className="pl-2 ml-3 w-full rounded-lg border border-white/20 mb-8"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="mx-auto cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+                >
+                  <p className="font-mono px-5 text-sm bg-transparent pt-[.15rem]">
+                    SUBMIT
+                  </p>
+                </button>
+              </Form>
+            )}
           </Formik>
         )}
 
@@ -275,7 +276,7 @@ export default function MadlibForTheFamily() {
             initial={{ y: 6, opacity: 0 }}
             animate={{ y: -3, opacity: 1 }}
             transition={{ ease: "easeOut", duration: 0.2 }}
-            className='mb-20'
+            className="mb-20"
           >
             <h2
               id="pullquote"
@@ -317,10 +318,10 @@ export default function MadlibForTheFamily() {
               <img
                 alt=""
                 className="sm:h-64 mx-auto"
-                src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680205508/Long%20Addition/Posts/I%20Made%20A%20Madlib/handsomedog_zffsm2.png"
+                src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680225158/Long%20Addition/Posts/I%20Made%20A%20Madlib/horse_lajntw.png"
               />
               <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
-                FIG 3. EQUINE WHISPERS{" "}
+                FIG 3. 3D EQUINE RENDER{" "}
               </p>
             </div>
             <p id="paragraph" className="mb-4">
@@ -345,12 +346,12 @@ export default function MadlibForTheFamily() {
             </p>
             <p id="paragraph" className="mb-4">
               Artie rested his forehead against his raised arm, positioned
-              firmly on the chilled window. “Yeah.” He took a deep breath.
-              “____, ____, ____”.
+              firmly on the chilled window. “Yeah.” He took a deep breath. “
+              ___, ____, ____”.
             </p>
           </motion.div>
         )}
-        <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
+        <div className="flex my-10 mb-5 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
             className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"

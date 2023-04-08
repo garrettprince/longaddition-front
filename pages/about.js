@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function About() {
   const rotatingPhrases = [
-    "My name is Garrett Prince and I'm the first person to stand up really fast, hunched over, when the plane lands and the doors aren't open yet.",
+    "My name is Garrett Prince and I'm the first person to stand up really fast, hunched over when the plane lands and the doors aren't open yet.",
     "My name is Garrett Prince and I'm the first person to feel sorrow on a jetski.",
     "My name is Garrett Prince and I'm very impressed with paintings and I understand all art.",
     "My name is Garrett Prince and I was the Gerder baby.",
