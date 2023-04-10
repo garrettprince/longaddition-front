@@ -114,7 +114,8 @@ export default function ScoringJavascriptFrameworks() {
         <p id="paragraph" className="mb-4">
           Today, I’ll be doing the Lord’s work: Scoring Javascript frameworks
           (and meta-frameworks) on a completely arbitrary number system ranging
-          from 0 to 2000. This scale is called The Sweaty Number. My physical
+          from 0 to 2000. This scale is called{" "}
+          <span className="italic">The Sweaty Number</span>. My physical
           attraction to and how I rank these frameworks will be based on four
           key factors: My experience working with it, how the framework name
           sounds, the logo shape, and what I think they would say to me on my
@@ -254,7 +255,7 @@ export default function ScoringJavascriptFrameworks() {
         </div>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">My Experience</span>: I may be a bit
-          biased here. I (like many others) chose React as the first framework
+          biased here. I, like many others, chose React as the first framework
           to spend time in after working in vanilla Javascript for a few months.
           I knew it was the most popular, had the highest likelihood of job
           opportunities, and the most robust selection of external libraries.
@@ -390,16 +391,10 @@ export default function ScoringJavascriptFrameworks() {
         </p>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">Doorstep Line:</span> “Let’s head inside
-          and talk about Cap’n Crunch’s Crunching Adventure over a piece(?) of
+          and talk about Cap’n Crunch’s Crunchling Adventure over a piece(?) of
           Chardonnay.”{" "}
           <span className="italic">
-            Context:{" "}
-            <Link
-              href="/posts/visual/what-happened-to-crunchlings "
-              className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
-            >
-              I like talking about Cap’n Crunch’s Crunching Adventure.
-            </Link>
+            Context: I like talking about Cap’n Crunch’s Crunchling Adventure.
           </span>{" "}
           <span className="font-bold">455 points.</span>
         </p>
@@ -414,7 +409,7 @@ export default function ScoringJavascriptFrameworks() {
         <p id="paragraph" className="mb-4">
           Every framework has their strengths. Literally, each framework can
           lift a metric ton. That being said, there can only be one ranked “Most
-          Moist” on The Sweaty Number. After careful consideration and with all
+          Moist” according to <span className="italic">The Sweaty Number</span>. After careful consideration and with all
           deductions added, the winner is:
         </p>
         <p id="paragraph" className="mb-4">

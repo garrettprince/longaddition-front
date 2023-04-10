@@ -26,18 +26,19 @@ export default function MixChannelsYoutube() {
   };
 
   const thumbnailInfo = {
-    title: "This is the template for each post, please use wisely",
+    title: "The Divine Comfort Of Mix Channels On Youtube",
     type: "photoRight",
     link: "/posts/template",
-    titleSize: "text-3xl",
+    titleSize: "text-4xl",
     date: "",
     category: "",
     duration: "",
-    series: false,
-    seriesTitle: "",
+    series: true,
+    seriesTitle: "the youtube files",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680657574/Long%20Addition/Posts/Mix%20Channels%20on%20Youtube/thumbnail_skwygo.png",
     marginBottom: "",
+    premium: false,
   };
 
   return (
@@ -55,6 +56,7 @@ export default function MixChannelsYoutube() {
           photo={thumbnailInfo.photo}
           series={thumbnailInfo.series}
           seriesTitle={thumbnailInfo.seriesTitle}
+          premium={thumbnailInfo.premium}
         />
 
         <motion.div
