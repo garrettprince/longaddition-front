@@ -33,8 +33,8 @@ export default function MixChannelsYoutube() {
     date: "",
     category: "",
     duration: "",
-    series: true,
-    seriesTitle: "the youtube files",
+    series: false,
+    seriesTitle: "",
     photo:
       "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680657574/Long%20Addition/Posts/Mix%20Channels%20on%20Youtube/thumbnail_skwygo.png",
     marginBottom: "",
@@ -77,7 +77,7 @@ export default function MixChannelsYoutube() {
               AUDIO
             </p>
             <p className="text-sm bg-transparent text-inactive font-mono text-right">
-              15 MIN
+              5 MIN
             </p>
           </div>
         </motion.div>
@@ -89,22 +89,44 @@ export default function MixChannelsYoutube() {
         className=" ml-8 mr-3 text-lg"
       >
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          <span className="font-bold">
+            I spent a large portion of 2022 coding.
+          </span>{" "}
+          Seeing as I’m self taught, it required a certain amount of discipline
+          (which I did not have in the beginning and barely have now) as a lot
+          of the core concepts of web development sink in with repetition and
+          real world examples. All of this to say, for better or for worse, I
+          spent a lot of time on YouTube researching answers to my coding
+          questions. Inevitably, “the algorithm”, a recommendations engine based
+          on your view history (and several other factors), would suggest
+          something new for me to watch on the sidebar. And then another. And
+          another.
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="">Lorem</span> ipsum dolor sit amet consectetur
-          adipisicing elit. Atque, explicabo fugiat qui recusandae accusantium
-          quia autem facilis pariatur enim! Sed magni minima sequi nisi nulla
-          optio non quod debitis ipsum.
+          My swan dive into the recommendation rabbit hole starts with a search
+          on out how to create a custom hook in React and ends an hour later
+          with me reading five year old comments on{" "}
+          <Link
+            href="https://www.youtube.com/watch?v=-WYYlRArn3g&ab_channel=MusicEntertainment"
+            className="border-b-[3px] border-audio cursor-pointer bg-transparent pb-[.1rem]"
+          >
+            Prince’s 2007 Super Bowl Halftime Show.
+          </Link>{" "}
+          An hour after that, I’m chest deep in{" "}
+          <Link
+            href="https://www.youtube.com/watch?v=dj7gEkVjZvU&ab_channel=TheTheorizer"
+            className="border-b-[3px] border-audio cursor-pointer bg-transparent pb-[.1rem]"
+          >
+            Shrek-iverse conspiracy theories.
+          </Link>
+          The algorithm giveth and the algorithm taketh away.
         </p>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          Now, I want to be clear about the algorithmic recommendations: I
+          mostly dislike them. They are deliberately engineered to rip your
+          attention away from the task at hand and more often than not, aren’t
+          even relevant to the current content. That being said, once in a blue
+          moon, it strikes gold.
         </p>
         <div className="mb-4 mt-10 ml-10 mr-14">
           <img
@@ -183,7 +205,7 @@ export default function MixChannelsYoutube() {
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem]">
               CONTACT
@@ -195,18 +217,13 @@ export default function MixChannelsYoutube() {
             onClick={() => {
               copy(), confettiSpring();
             }}
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
               {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>
-        {/* <div className="flex justify-between mb-5 ml-5 mr-10 text-sm">
-          <p className="font-mono text-inactive">PREVIOUS</p>
-          <Link href='/' className="font-mono text-inactive">HOME</Link>
-          <p className="font-mono text-inactive">NEXT</p>
-        </div> */}
       </motion.div>
     </div>
   );

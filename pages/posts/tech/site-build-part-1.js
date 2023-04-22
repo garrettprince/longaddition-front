@@ -178,7 +178,7 @@ export default function SiteBuildPart1() {
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem]">
               CONTACT
@@ -190,18 +190,13 @@ export default function SiteBuildPart1() {
             onClick={() => {
               copy(), confettiSpring();
             }}
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
               {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>
-        {/* <div className="flex justify-between mb-5 ml-5 mr-10 text-sm">
-          <p className="font-mono text-inactive">PREVIOUS</p>
-          <Link href='/' className="font-mono text-inactive">HOME</Link>
-          <p className="font-mono text-inactive">NEXT</p>
-        </div> */}
       </motion.div>
     </div>
   );

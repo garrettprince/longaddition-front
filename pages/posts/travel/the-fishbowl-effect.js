@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { useReward } from "react-rewards";
+import ArticleRec from "../../../lib/components/ArticleRec";
 
 export default function FishbowlEffect() {
   const [copied, setCopied] = useState(false);
@@ -282,9 +283,9 @@ export default function FishbowlEffect() {
           my life using that visual: The Fishbowl Effect, if you will. Applying
           for colleges and feeling like I had to get out of my hometown in
           Oregon: Stuck in the fishbowl. Leaving for the University of Hawaii:
-          Getting out of the fishbowl. Falling for someone who’s engaged to be
-          married: Fishbowl. Starting a new career, moving and getting over
-          them: Out.
+          Getting out of the fishbowl. Developing feelings for someone who’s
+          engaged to be married: Fishbowl. Starting a new career, moving and
+          getting over them: Out.
         </p>
         <p id="paragraph" className="mb-4">
           Engineering nightly, keeping too much to myself, feeling like I wasn’t
@@ -391,7 +392,7 @@ export default function FishbowlEffect() {
           terror through my dive mask?”. The last sign can be achieved by
           opening up your eyes as wide as you can, tensing your body from head
           to toe, and cramping up most, if not all, of your fingers, resulting
-          in two arthritic shadow puppets.
+          in two arthritic shadow puppet shapes.
         </p>
         <p id="paragraph" className="mb-4">
           I delivery-room gripped Jose’s left bicep as we sank deeper to inspect
@@ -425,10 +426,10 @@ export default function FishbowlEffect() {
             className="ml-2 h-3 w-3 rounded-full bg-travel"
           ></button>
         </p>
-        <div className="flex my-10 justify-center space-x-2 mr-5">
+        <div className="flex my-20 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem]">
               CONTACT
@@ -440,7 +441,7 @@ export default function FishbowlEffect() {
             onClick={() => {
               copy(), confettiSpring();
             }}
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
               {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}

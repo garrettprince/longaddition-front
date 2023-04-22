@@ -21,7 +21,7 @@ export default function About() {
       initial={{ y: 6, opacity: 0 }}
       animate={{ y: -3, opacity: 1 }}
       transition={{ ease: "easeOut", duration: 0.2 }}
-      className="mt-28 flex flex-col justify-center "
+      className="mt-24 flex flex-col justify-center "
     >
       <div className="">
         <div className=" bg-transparent ml-7 mr-4 text-lg">

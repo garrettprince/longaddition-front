@@ -263,7 +263,7 @@ export default function ScoringJavascriptFrameworks() {
         </p>
 
         <p id="paragraph" className="mb-4">
-          I can see React smoking a black and mild, hunched over the corner of a
+          I can see React smoking a Black and Mild, hunched over the corner of a
           well worn queen mattress at a single story, roadside motel.
         </p>
         <p id="paragraph" className="mb-4">
@@ -271,8 +271,8 @@ export default function ScoringJavascriptFrameworks() {
           long drag and look up at their reflection in the Zenith tube tv. “You
           really want to know? Or should we just jump into it?” I keep my
           stringer on (I had just broken a bench press record). “Yeah, I really
-          want to know.” React lets out a soft laugh and ashes their cigarette
-          on my Crocs. “It’s{" "}
+          want to know.” React lets out a soft laugh and ashes their cigar on my
+          Crocs. “It’s{" "}
           <Link
             href="https://javascript.plainenglish.io/why-create-react-app-is-outdated-in-2022-b1d9c99e18d0#:~:text=While%20this%20is%20super%20convenient,you%20dislike%20the%20default%20configuration"
             className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
@@ -409,8 +409,9 @@ export default function ScoringJavascriptFrameworks() {
         <p id="paragraph" className="mb-4">
           Every framework has their strengths. Literally, each framework can
           lift a metric ton. That being said, there can only be one ranked “Most
-          Moist” according to <span className="italic">The Sweaty Number</span>. After careful consideration and with all
-          deductions added, the winner is:
+          Moist” according to <span className="italic">The Sweaty Number</span>.
+          After careful consideration and with all deductions added, the winner
+          is:
         </p>
         <p id="paragraph" className="mb-4">
           Holy shit, it’s a tie! That’s not what I was expecting at all.
@@ -425,7 +426,7 @@ export default function ScoringJavascriptFrameworks() {
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem]">
               CONTACT
@@ -437,18 +438,13 @@ export default function ScoringJavascriptFrameworks() {
             onClick={() => {
               copy(), confettiSpring();
             }}
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
               {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>
-        {/* <div className="flex justify-between mb-5 ml-5 mr-10 text-sm">
-          <p className="font-mono text-inactive">PREVIOUS</p>
-          <Link href='/' className="font-mono text-inactive">HOME</Link>
-          <p className="font-mono text-inactive">NEXT</p>
-        </div> */}
       </motion.div>
     </div>
   );

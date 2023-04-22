@@ -180,7 +180,7 @@ export default function Template() {
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem]">
               CONTACT
@@ -192,7 +192,7 @@ export default function Template() {
             onClick={() => {
               copy(), confettiSpring();
             }}
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
               {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}

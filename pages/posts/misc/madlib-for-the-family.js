@@ -134,7 +134,7 @@ export default function MadlibForTheFamily() {
         <div className="mb-4 mt-10 ml-10 mr-14">
           <img
             alt=""
-            className="sm:h-64 mx-auto"
+            className="sm:h-64 h-56 mx-auto"
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680205508/Long%20Addition/Posts/I%20Made%20A%20Madlib/handsomedog_zffsm2.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
@@ -358,7 +358,7 @@ export default function MadlibForTheFamily() {
         <div className="flex my-10 mb-5 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem]">
               CONTACT
@@ -370,18 +370,13 @@ export default function MadlibForTheFamily() {
             onClick={() => {
               copy(), confettiSpring();
             }}
-            className="cursor-pointer flex rounded-lg px-3 py-1 bg-white/20 justify-center items-center space-x-2"
+            className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
               {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>
-        {/* <div className="flex justify-between mb-5 ml-5 mr-10 text-sm">
-          <p className="font-mono text-inactive">PREVIOUS</p>
-          <Link href='/' className="font-mono text-inactive">HOME</Link>
-          <p className="font-mono text-inactive">NEXT</p>
-        </div> */}
       </motion.div>
     </div>
   );
