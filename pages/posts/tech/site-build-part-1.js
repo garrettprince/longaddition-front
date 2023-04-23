@@ -86,6 +86,7 @@ export default function SiteBuildPart1() {
         transition={{ ease: "easeOut", duration: 0.2 }}
         className=" ml-8 mr-3 text-lg"
       >
+        <code></code>
         <p id="paragraph" className="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
           explicabo fugiat qui recusandae accusantium quia autem facilis
