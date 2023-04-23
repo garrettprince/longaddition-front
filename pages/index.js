@@ -2,7 +2,6 @@ import Head from "next/head";
 import CategoryBar from "../lib/components/CategoryBar";
 import Feed from "../lib/components/Feed";
 import { useState } from "react";
-import Footer from "../lib/components/Footer";
 
 export default function Home() {
   const [selected, setSelected] = useState("latest");
@@ -19,7 +18,6 @@ export default function Home() {
         <CategoryBar selected={selected} setSelected={setSelected} />
         <Feed selected={selected} />
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
