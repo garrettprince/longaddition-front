@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'Metro Sans';
+    src: url('/public/assets/fonts/MetroSans-Regular.otf') fromat('opentype');
+  }
+  @font-face {
+    font-family: 'TronicaMono';
+    src: url('/public/assets/fonts/TronicaMono.ttf') fromat('truetype');
+  }
+}
+
 * {
   background-color: black;
   color: white;
