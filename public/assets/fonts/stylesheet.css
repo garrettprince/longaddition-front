@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Tronica Mono';
     src: url('TronicaMono-Regular.woff2') format('woff2'),
-        url('TronicaMono-Regular.woff') format('woff');
+        url('TronicaMono-Regular.woff') format('woff'),
+        url('TronicaMono-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

@@ -4,12 +4,12 @@
 
 @layer base {
   @font-face {
-    font-family: 'Metro Sans';
-    src: url('/public/assets/fonts/MetroSans-Regular.otf') fromat('opentype');
+    font-family: "Metro Sans";
+    src: url("/public/assets/fonts/MetroSans-Regular.otf") fromat("opentype");
   }
   @font-face {
-    font-family: 'TronicaMono';
-    src: url('/public/assets/fonts/TronicaMono.ttf') fromat('truetype');
+    font-family: "TronicaMono";
+    src: url("/public/assets/fonts/TronicaMono.ttf") fromat("truetype");
   }
 }
 
@@ -72,6 +72,18 @@
   text-shadow: 0.5px 0.5px 0px white;
 }
 
-.other-shadow {
-  color: white;
+.zinc-900-shadow {
+  filter: drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095)
+    drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095)
+    drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095);
+}
+
+.space-y-15 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.75rem * var(--tw-space-y-reverse));
+}
+
+.tron {
+  font-family: "Tronica Mono";
 }
