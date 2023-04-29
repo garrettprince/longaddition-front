@@ -24,7 +24,7 @@ export default function About() {
       className="mt-24 flex flex-col justify-center "
     >
       <div className="">
-        <div className=" bg-transparent ml-7 mr-4 text-lg">
+        <div className=" bg-transparent ml-4 mr-3 text-lg">
           <p className="font-bold mb-4 bg-transparent">
             {
               rotatingPhrases[
@@ -45,7 +45,7 @@ export default function About() {
           </p>
           <p className="mb-4 bg-transparent">
             Long Addition is part dumping ground, part personal catalogue, and
-            part art installation. This site acts as my primary outlet for my personal philosophy of
+            part art installation. This site acts as the primary outlet for my personal philosophy of
             making things until I&apos;m dead. I talk more about it{" "}
             <Link
               href="/"

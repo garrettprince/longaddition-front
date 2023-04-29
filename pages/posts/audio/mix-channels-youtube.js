@@ -43,21 +43,22 @@ export default function MixChannelsYoutube() {
 
   return (
     <div className="mt-24">
-      <header className="mx-8">
-        <Thumbnail
-          title={thumbnailInfo.title}
-          type={thumbnailInfo.type}
-          key={thumbnailInfo.title}
-          link={thumbnailInfo.link}
-          category={thumbnailInfo.category}
-          titleSize={thumbnailInfo.titleSize}
-          date={thumbnailInfo.date}
-          duration={thumbnailInfo.duration}
-          photo={thumbnailInfo.photo}
-          series={thumbnailInfo.series}
-          seriesTitle={thumbnailInfo.seriesTitle}
-          premium={thumbnailInfo.premium}
-        />
+      <header className="mx-4">
+        <div className="mx-2 mb-[-2rem]">
+          <Thumbnail
+            title={thumbnailInfo.title}
+            type={thumbnailInfo.type}
+            key={thumbnailInfo.title}
+            link={thumbnailInfo.link}
+            category={thumbnailInfo.category}
+            titleSize={thumbnailInfo.titleSize}
+            date={thumbnailInfo.date}
+            duration={thumbnailInfo.duration}
+            photo={thumbnailInfo.photo}
+            series={thumbnailInfo.series}
+            seriesTitle={thumbnailInfo.seriesTitle}
+          />
+        </div>
 
         <motion.div
           id="info"
@@ -86,7 +87,7 @@ export default function MixChannelsYoutube() {
         initial={{ y: 6, opacity: 0 }}
         animate={{ y: -3, opacity: 1 }}
         transition={{ ease: "easeOut", duration: 0.2 }}
-        className=" ml-8 mr-3 text-lg"
+        className=" ml-4 mr-3 text-lg"
       >
         <p id="paragraph" className="mb-4">
           <span className="font-bold">
