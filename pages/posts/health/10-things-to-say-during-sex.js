@@ -87,7 +87,7 @@ export default function ThingsToSayDuringSex() {
         initial={{ y: 6, opacity: 0 }}
         animate={{ y: -3, opacity: 1 }}
         transition={{ ease: "easeOut", duration: 0.2 }}
-        className=" ml-4 mr-3 text-lg sm:ml-8"
+        className=" ml-4 mr-3 text-lg sm:ml-8 font-normal"
       >
         <p id="paragraph" className="mb-4">
           <span className="font-bold">
@@ -114,21 +114,25 @@ export default function ThingsToSayDuringSex() {
         <p id="paragraph" className="mb-4">
           So, here are my top 10 things to say during the big back scratch:
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           10. &quot;Now how about that?&quot;
         </p>
         <p id="paragraph" className="mb-4">
           Great opener <span className="italic">and</span> closer. It may lack
           some creativity but Rome wasn’t built in 30 seconds.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           9. &quot;What do you mean I have witch fingers?&quot;
         </p>
         <p id="paragraph" className="mb-4">
           This one is more of a response, but it’s happened enough times that
           I’m legally obligated to include it.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p>
+          My lawyers also informed me that if I lie about how long my toes are
+          again (three cubic Newtons), I get the chair.
+        </p>
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           8. &quot;I&apos;m not normally this sweaty.&quot;
         </p>
         <p id="paragraph" className="mb-4">
@@ -152,7 +156,11 @@ export default function ThingsToSayDuringSex() {
           </Link>
           ? The answer lies in how stained your gray tee shirts are.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p>
+          I’ve seen enough Gatorade commercials to know I’m not the only one
+          with orange cascading down my frown lines on a frequent basis.
+        </p>
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           7. &quot;A toast: Never lie, steal, cheat, or drink. But if you must
           lie, lie in the arms of the one you love. If you must steal, steal
           away from bad company. If you must cheat, cheat death. And if you must
@@ -164,22 +172,27 @@ export default function ThingsToSayDuringSex() {
           get through the whole toast, but I imagine it would go over really
           well.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           6. &quot;How’s the scrote?&quot;
         </p>
         <p id="paragraph" className="mb-4">
           <span className="italic">The</span> wildcard question with a
           cornucopia of possible responses.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           5. &quot;Oh shit.&quot;
         </p>
         <p id="paragraph" className="mb-4">
-          Pure poetry. While on the surface, similar to “oh yeah”, “oh shit”
-          demands a gravity that is unmatched in intimate, two word
-          communication.
+          An exclamation. A warning. An exchange of emotion. The often too
+          common catalyst for staring at the ceiling fan mere moments later,
+          scrambling for a new way to say “How was that for you?”
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="paragraph" className="mb-4">
+          While on the surface, similar to “oh yeah”, “oh shit” demands a
+          gravity that is unmatched in intimate, two word communication. Pure
+          poetry.
+        </p>
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           4. &quot;Have I ever told you about my (insert theory here)
           theory?&quot;
         </p>
@@ -195,14 +208,19 @@ export default function ThingsToSayDuringSex() {
             one of mine.
           </Link>
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           3. &quot;Dipsy doo, dunkaroo!&quot;
         </p>
         <p id="paragraph" className="mb-4">
           March Madness, anyone? Show that special somebody in your life you’re
           thinking of a 70 year old man during your holy union.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p>
+          There’s nothing more comforting than the thought of punching your
+          ticket to The Big Dance while simultaneously showing your partner you
+          physically don’t know how to dance.
+        </p>
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           2. &quot;Boom, baby!&quot;
         </p>
         <p id="paragraph" className="mb-4">
@@ -210,32 +228,45 @@ export default function ThingsToSayDuringSex() {
           Cuzco for nothing. Bonus points if you can master both the John
           Goodman <span className="italic">and</span> David Spade versions.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           1. &quot;G-g-g-ghooooooost!!!&quot;
         </p>
         <p id="paragraph" className="mb-4">
           My go-to. I’ve lost count of the number of ghouls and specters I’ve
           seen hovering in the dimly lit doorway of the bathroom near the bed.
         </p>
+        <p>
+          If it weren’t for my darkest-corner-of-the-room, always-running
+          Panasonic camcorders pointed every direction but my Casper branded
+          Twinplet (twice the size of Twin, about eleven feet, long ways, so we
+          can sleep head-toe head-toe) mattress, these paranormal sightings may
+          have gone undocumented.
+        </p>
 
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+        <p id="sectionchange" className="mb-3 mt-12 font-bold text-2xl">
           Conclusion
         </p>
         <p id="paragraph" className="mb-4">
           Change can be hard, but rewarding. If you’ve been as quiet as church
           mouse, try speaking from the chest pouch (your diaphragm). If you’ve
-          been mute as the moon, try robbing the Louvre (also using the
-          diaphragm).
+          been mute as the moon, try speaking from the chest balloon (also using
+          the diaphragm).
         </p>
 
-        <p id="final-paragraph" className="mb-20">
+        <p id="final-paragraph" className="mb-4">
           If you happen to use any of these, let me know how it goes. If you
-          happen to use all ten in a single outing, please don’t let me know how
-          it goes.
+          happen to use all ten in a single outing, send me an email titled “My
+          Name Is (your name there) And I Did The Thing’. I’ll send you a
+          complimentary* “I said all 10 things from a dumb article Garrett wrote
+          and I’ll I got was this tee shirt and now I’m lonely.” tee shirt.
           <button
             disabled
             className="ml-2 h-3 w-3 rounded-full bg-health"
           ></button>
+        </p>
+
+        <p className="mb-20 text-sm">
+          *It’s not complimentary and you’ll be invoiced for parts and labor
         </p>
 
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
@@ -260,7 +291,6 @@ export default function ThingsToSayDuringSex() {
             </p>
           </button>
         </div>
-       
       </motion.div>
     </div>
   );
