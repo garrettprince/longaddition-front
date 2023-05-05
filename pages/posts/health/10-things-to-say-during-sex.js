@@ -257,7 +257,7 @@ export default function ThingsToSayDuringSex() {
           If you happen to use any of these, let me know how it goes. If you
           happen to use all ten in a single outing, send me an email titled “My
           Name Is (your name there) And I Did The Thing’. I’ll send you a
-          complimentary* “I said all 10 things from a dumb article Garrett wrote
+          complimentary* “I said all 10 things from a dumb thing Garrett wrote
           and I’ll I got was this tee shirt and now I’m lonely.” tee shirt.
           <button
             disabled

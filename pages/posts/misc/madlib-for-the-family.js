@@ -12,6 +12,7 @@ export default function MadlibForTheFamily() {
   const { reward: confettiReward, isAnimating: isConfettiAnimating } =
     useReward("confettiReward", "confetti");
   const [showStory, setShowStory] = useState(false);
+  const [formValues, setFormValues] = useState("");
 
   const confettiSpring = () => {
     confettiReward();
@@ -169,6 +170,7 @@ export default function MadlibForTheFamily() {
               country: "",
             }}
             onSubmit={async (values) => {
+              setFormValues(values);
               setShowStory(true);
             }}
           >
@@ -353,7 +355,12 @@ export default function MadlibForTheFamily() {
             <p id="paragraph" className="mb-4">
               Artie rested his forehead against his raised arm, positioned
               firmly on the chilled window. “Yeah.” He took a deep breath. “
-              ___, ____, ____”.
+              <span className="font-bold">
+                ...{formValues.adj1}, {formValues.verb1}, {formValues.noun1},{" "}
+                {formValues.pnoun1}, {formValues.verb2}, {formValues.exclaim},{" "}
+                {formValues.adj2}, {formValues.noun2}, {formValues.country}.
+              </span>
+              ”
             </p>
           </motion.div>
         )}
