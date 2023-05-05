@@ -4,12 +4,121 @@
 
 @layer base {
   @font-face {
-    font-family: "Metro Sans";
-    src: url("/public/assets/fonts/MetroSans-Regular.otf") fromat("opentype");
-  }
+    font-family: "Tronica Mono";
+    src: url("/fonts/TronicaMono-Regular.woff2") format("woff2"),
+      url("/fonts/TronicaMono-Regular.woff") format("woff"),
+      url("/fonts/TronicaMono-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  } 
+
   @font-face {
-    font-family: "TronicaMono";
-    src: url("/public/assets/fonts/TronicaMono.ttf") fromat("truetype");
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-LightItalic.woff2") format("woff2"),
+      url("/fonts/MetroSans-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-Light.woff2") format("woff2"),
+      url("/fonts/MetroSans-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-BookItalic.woff2") format("woff2"),
+      url("/fonts/MetroSans-BookItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-Book.woff2") format("woff2"),
+      url("/fonts/MetroSans-Book.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-BoldItalic.woff2") format("woff2"),
+      url("/fonts/MetroSans-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-Medium.woff2") format("woff2"),
+      url("/fonts/MetroSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-Bold.woff2") format("woff2"),
+      url("/fonts/MetroSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-Regular.woff2") format("woff2"),
+      url("/fonts/MetroSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-SemiBold.woff2") format("woff2"),
+      url("/fonts/MetroSans-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-SemiBoldItalic.woff2") format("woff2"),
+      url("/fonts/MetroSans-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-MediumItalic.woff2") format("woff2"),
+      url("/fonts/MetroSans-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Metro Sans";
+    src: url("/fonts/MetroSans-RegularItalic.woff2") format("woff2"),
+      url("/fonts/MetroSans-RegularItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
   }
 }
 
