@@ -48,7 +48,7 @@ export default function About() {
             part art installation. This site acts as the primary outlet for my personal philosophy of
             making things until I&apos;m dead. I talk more about it{" "}
             <Link
-              href="/"
+              href="/posts/misc/what-is-long-addition"
               className="border-b-[3px] pb-[.1rem] border-cta cursor-pointer bg-transparent"
             >
               here.
@@ -64,6 +64,7 @@ export default function About() {
             </Link>{" "}
             I&apos;m very approachable and can read most words.
           </p>
+          <p>Scroll for small goblin.</p>
         </div>
         <img
           src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677184908/Long%20Addition/About%20Me%20Page/Troll_bmhsyg.png"
