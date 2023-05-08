@@ -13,7 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Metro Sans", "sans-serif"],
-        mono: ["tronica_monoregular", "monospace"],
+        mono: ["Tronica Mono", "monospace"],
       },
       colors: {
         "cta-gradient-1": "#FF0049",

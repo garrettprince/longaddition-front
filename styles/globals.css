@@ -3,15 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: "Tronica Mono";
-    src: url("/fonts/TronicaMono-Regular.woff2") format("woff2"),
-      url("/fonts/TronicaMono-Regular.woff") format("woff"),
-      url("/fonts/TronicaMono-Regular.ttf") format("ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  } 
 
   @font-face {
     font-family: "Metro Sans";
@@ -192,6 +183,4 @@
   margin-bottom: calc(3.75rem * var(--tw-space-y-reverse));
 }
 
-.tron {
-  font-family: "Tronica Mono";
-}
+

@@ -146,7 +146,7 @@
 
 
 @font-face {
-    font-family: 'tronica_monoregular';
+    font-family: 'Tronica Mono';
     src: url('tronica_mono-webfont.woff2') format('woff2'),
          url('tronica_mono-webfont.woff') format('woff'),
          url('https://longaddition.vercel.app/public/assets/fonts/tronica_mono-webfont.ttf') format('truetype');
